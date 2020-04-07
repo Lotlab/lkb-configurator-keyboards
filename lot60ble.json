@@ -1,0 +1,1250 @@
+{
+    "Name": "Lot60-BLE",
+    "Vendor": {
+        "Name": "Lotlab",
+        "Url": "https://lotlab.org"
+    },
+    "VID": 1300,
+    "PID": 276,
+    "Row": 5,
+    "Col": 14,
+    "Revision": [
+        "Rev.C",
+        "Rev.E",
+        "Rev.F",
+        "Rev.G"
+    ],
+    "Layout": {
+        "conds": [
+            {
+                "id": "enter",
+                "desc": "Enter",
+                "cond": [
+                    "普通",
+                    "ISO",
+                    "1u + 1.25u"
+                ],
+                "value": 0
+            },
+            {
+                "id": "lshift",
+                "desc": "左Shift",
+                "cond": [
+                    "2.25u",
+                    "1.25u + 1u",
+                    "2u",
+                    "1u + 1u"
+                ],
+                "value": 0
+            },
+            {
+                "id": "rshift",
+                "desc": "右Shift",
+                "cond": [
+                    "2.75u",
+                    "1.75u + 1u",
+                    "1u + 1.75u",
+                    "1u + 1u + 1u"
+                ],
+                "value": 0
+            },
+            {
+                "id": "backspace",
+                "desc": "退格",
+                "cond": [
+                    "2u",
+                    "1 + 1u"
+                ],
+                "value": 0
+            },
+            {
+                "id": "rctrl",
+                "desc": "右下角",
+                "cond": [
+                    "4x 1.25u",
+                    "5x 1u"
+                ],
+                "value": 0
+            }
+        ],
+        "rows": [
+            {
+                "keys": [
+                    {
+                        "col": 0,
+                        "row": 0
+                    },
+                    {
+                        "col": 1,
+                        "row": 0
+                    },
+                    {
+                        "col": 2,
+                        "row": 0
+                    },
+                    {
+                        "col": 3,
+                        "row": 0
+                    },
+                    {
+                        "col": 4,
+                        "row": 0
+                    },
+                    {
+                        "col": 5,
+                        "row": 0
+                    },
+                    {
+                        "col": 6,
+                        "row": 0
+                    },
+                    {
+                        "col": 7,
+                        "row": 0
+                    },
+                    {
+                        "col": 8,
+                        "row": 0
+                    },
+                    {
+                        "col": 9,
+                        "row": 0
+                    },
+                    {
+                        "col": 10,
+                        "row": 0
+                    },
+                    {
+                        "col": 11,
+                        "row": 0
+                    },
+                    {
+                        "col": 12,
+                        "row": 0
+                    },
+                    {
+                        "w": 2,
+                        "col": 13,
+                        "row": 0,
+                        "cond": {
+                            "id": "backspace",
+                            "value": 0
+                        }
+                    },
+                    {
+                        "col": 13,
+                        "row": 0,
+                        "cond": {
+                            "id": "backspace",
+                            "value": 1
+                        }
+                    },
+                    {
+                        "col": 9,
+                        "row": 4,
+                        "cond": {
+                            "id": "backspace",
+                            "value": 1
+                        }
+                    }
+                ]
+            },
+            {
+                "keys": [
+                    {
+                        "w": 1.5,
+                        "col": 0,
+                        "row": 1
+                    },
+                    {
+                        "col": 1,
+                        "row": 1
+                    },
+                    {
+                        "col": 2,
+                        "row": 1
+                    },
+                    {
+                        "col": 3,
+                        "row": 1
+                    },
+                    {
+                        "col": 4,
+                        "row": 1
+                    },
+                    {
+                        "col": 5,
+                        "row": 1
+                    },
+                    {
+                        "col": 6,
+                        "row": 1
+                    },
+                    {
+                        "col": 7,
+                        "row": 1
+                    },
+                    {
+                        "col": 8,
+                        "row": 1
+                    },
+                    {
+                        "col": 9,
+                        "row": 1
+                    },
+                    {
+                        "col": 10,
+                        "row": 1
+                    },
+                    {
+                        "col": 11,
+                        "row": 1
+                    },
+                    {
+                        "col": 12,
+                        "row": 1
+                    },
+                    {
+                        "w": 1.5,
+                        "col": 13,
+                        "row": 1,
+                        "conds": [
+                            {
+                                "id": "enter",
+                                "value": 0
+                            },
+                            {
+                                "id": "enter",
+                                "value": 2
+                            }
+                        ]
+                    },
+                    {
+                        "x": 0.25,
+                        "w": 1.25,
+                        "h": 2,
+                        "w2": 1.5,
+                        "h2": 1,
+                        "x2": -0.25,
+                        "col": 13,
+                        "row": 2,
+                        "cond": {
+                            "id": "enter",
+                            "value": 1
+                        }
+                    }
+                ]
+            },
+            {
+                "keys": [
+                    {
+                        "w": 1.75,
+                        "col": 0,
+                        "row": 2
+                    },
+                    {
+                        "col": 1,
+                        "row": 2
+                    },
+                    {
+                        "col": 2,
+                        "row": 2
+                    },
+                    {
+                        "col": 3,
+                        "row": 2
+                    },
+                    {
+                        "col": 4,
+                        "row": 2
+                    },
+                    {
+                        "col": 5,
+                        "row": 2
+                    },
+                    {
+                        "col": 6,
+                        "row": 2
+                    },
+                    {
+                        "col": 7,
+                        "row": 2
+                    },
+                    {
+                        "col": 8,
+                        "row": 2
+                    },
+                    {
+                        "col": 9,
+                        "row": 2
+                    },
+                    {
+                        "col": 10,
+                        "row": 2
+                    },
+                    {
+                        "col": 11,
+                        "row": 2
+                    },
+                    {
+                        "col": 12,
+                        "row": 2,
+                        "conds": [
+                            {
+                                "id": "enter",
+                                "value": 1
+                            },
+                            {
+                                "id": "enter",
+                                "value": 2
+                            }
+                        ]
+                    },
+                    {
+                        "w": 2.25,
+                        "col": 13,
+                        "row": 2,
+                        "cond": {
+                            "id": "enter",
+                            "value": 0
+                        }
+                    },
+                    {
+                        "w": 1.25,
+                        "col": 13,
+                        "row": 2,
+                        "cond": {
+                            "id": "enter",
+                            "value": 2
+                        }
+                    }
+                ]
+            },
+            {
+                "keys": [
+                    {
+                        "w": 2.25,
+                        "col": 0,
+                        "row": 3,
+                        "cond": {
+                            "id": "lshift",
+                            "value": 0
+                        }
+                    },
+                    {
+                        "w": 1.25,
+                        "col": 0,
+                        "row": 3,
+                        "cond": {
+                            "id": "lshift",
+                            "value": 1
+                        }
+                    },
+                    {
+                        "w": 2,
+                        "col": 0,
+                        "row": 3,
+                        "cond": {
+                            "id": "lshift",
+                            "value": 2
+                        }
+                    },
+                    {
+                        "col": 0,
+                        "row": 3,
+                        "cond": {
+                            "id": "lshift",
+                            "value": 3
+                        }
+                    },
+                    {
+                        "col": 1,
+                        "row": 3,
+                        "conds": [
+                            {
+                                "id": "lshift",
+                                "value": 1
+                            },
+                            {
+                                "id": "lshift",
+                                "value": 3
+                            }
+                        ]
+                    },
+                    {
+                        "col": 2,
+                        "row": 3
+                    },
+                    {
+                        "col": 3,
+                        "row": 3
+                    },
+                    {
+                        "col": 4,
+                        "row": 3
+                    },
+                    {
+                        "col": 5,
+                        "row": 3
+                    },
+                    {
+                        "col": 6,
+                        "row": 3
+                    },
+                    {
+                        "col": 7,
+                        "row": 3
+                    },
+                    {
+                        "col": 8,
+                        "row": 3
+                    },
+                    {
+                        "col": 9,
+                        "row": 3
+                    },
+                    {
+                        "col": 10,
+                        "row": 3
+                    },
+                    {
+                        "col": 11,
+                        "row": 3
+                    },
+                    {
+                        "col": 7,
+                        "row": 4,
+                        "cond": {
+                            "id": "rshift",
+                            "value": 3
+                        }
+                    },
+                    {
+                        "col": 13,
+                        "row": 3,
+                        "conds": [
+                            {
+                                "id": "rshift",
+                                "value": 3
+                            }
+                        ]
+                    },
+                    {
+                        "col": 12,
+                        "row": 3,
+                        "conds": [
+                            {
+                                "id": "rshift",
+                                "value": 2
+                            }
+                        ]
+                    },
+                    {
+                        "w": 1.75,
+                        "col": 13,
+                        "row": 3,
+                        "cond": {
+                            "id": "rshift",
+                            "value": 1
+                        }
+                    },
+                    {
+                        "col": 12,
+                        "row": 3,
+                        "conds": [
+                            {
+                                "id": "rshift",
+                                "value": 1
+                            },
+                            {
+                                "id": "rshift",
+                                "value": 3
+                            }
+                        ]
+                    },
+                    {
+                        "w": 1.75,
+                        "col": 13,
+                        "row": 3,
+                        "cond": {
+                            "id": "rshift",
+                            "value": 2
+                        }
+                    },
+                    {
+                        "w": 2.75,
+                        "col": 13,
+                        "row": 3,
+                        "cond": {
+                            "id": "rshift",
+                            "value": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "keys": [
+                    {
+                        "w": 1.25,
+                        "col": 0,
+                        "row": 4
+                    },
+                    {
+                        "w": 1.25,
+                        "col": 1,
+                        "row": 4
+                    },
+                    {
+                        "w": 1.25,
+                        "col": 2,
+                        "row": 4
+                    },
+                    {
+                        "w": 6.25,
+                        "col": 5,
+                        "row": 4
+                    },
+                    {
+                        "col": 9,
+                        "row": 4,
+                        "cond": {
+                            "id": "rctrl",
+                            "value": 1
+                        }
+                    },
+                    {
+                        "w": 1.25,
+                        "col": 10,
+                        "row": 4,
+                        "cond": {
+                            "id": "rctrl",
+                            "value": 0
+                        }
+                    },
+                    {
+                        "col": 10,
+                        "row": 4,
+                        "cond": {
+                            "id": "rctrl",
+                            "value": 1
+                        }
+                    },
+                    {
+                        "w": 1.25,
+                        "col": 11,
+                        "row": 4,
+                        "cond": {
+                            "id": "rctrl",
+                            "value": 0
+                        }
+                    },
+                    {
+                        "col": 11,
+                        "row": 4,
+                        "cond": {
+                            "id": "rctrl",
+                            "value": 1
+                        }
+                    },
+                    {
+                        "w": 1.25,
+                        "col": 12,
+                        "row": 4,
+                        "cond": {
+                            "id": "rctrl",
+                            "value": 0
+                        }
+                    },
+                    {
+                        "col": 12,
+                        "row": 4,
+                        "cond": {
+                            "id": "rctrl",
+                            "value": 1
+                        }
+                    },
+                    {
+                        "w": 1.25,
+                        "col": 13,
+                        "row": 4,
+                        "cond": {
+                            "id": "rctrl",
+                            "value": 0
+                        }
+                    },
+                    {
+                        "col": 13,
+                        "row": 4,
+                        "cond": {
+                            "id": "rctrl",
+                            "value": 1
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "Doc": "## Lot60-BLE \n\n 此键盘是一个60%键盘",
+    "Default": {
+        "Keys": [
+            [
+                [
+                    41,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    45,
+                    46,
+                    42
+                ],
+                [
+                    43,
+                    20,
+                    26,
+                    8,
+                    21,
+                    23,
+                    28,
+                    24,
+                    12,
+                    18,
+                    19,
+                    47,
+                    48,
+                    49
+                ],
+                [
+                    57,
+                    4,
+                    22,
+                    7,
+                    9,
+                    10,
+                    11,
+                    13,
+                    14,
+                    15,
+                    51,
+                    52,
+                    100,
+                    40
+                ],
+                [
+                    225,
+                    50,
+                    29,
+                    27,
+                    6,
+                    25,
+                    5,
+                    17,
+                    16,
+                    54,
+                    55,
+                    56,
+                    229,
+                    229
+                ],
+                [
+                    224,
+                    227,
+                    226,
+                    44,
+                    null,
+                    44,
+                    null,
+                    null,
+                    null,
+                    null,
+                    41457,
+                    230,
+                    101,
+                    228
+                ]
+            ],
+            [
+                [
+                    53,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69,
+                    76
+                ],
+                [
+                    61441,
+                    1,
+                    82,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    74,
+                    73,
+                    1
+                ],
+                [
+                    61440,
+                    80,
+                    81,
+                    79,
+                    1,
+                    1,
+                    70,
+                    71,
+                    72,
+                    1,
+                    1,
+                    77,
+                    1,
+                    1
+                ],
+                [
+                    1,
+                    1,
+                    76,
+                    1,
+                    183,
+                    168,
+                    169,
+                    170,
+                    1,
+                    75,
+                    78,
+                    1,
+                    1,
+                    1
+                ],
+                [
+                    1,
+                    1,
+                    1,
+                    1,
+                    null,
+                    1,
+                    null,
+                    null,
+                    null,
+                    null,
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            ],
+            [
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            ],
+            [
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            ],
+            [
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            ],
+            [
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            ],
+            [
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            ],
+            [
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            ]
+        ],
+        "Macros": [],
+        "Settings": []
+    }
+}
