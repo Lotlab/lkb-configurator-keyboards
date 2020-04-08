@@ -12,11 +12,17 @@
         " "
     ],
     "Layout": {
-        "conds": [],
-        "rows": [
-            {
-                "keys": [
-                    {
+        "conds": [{
+            "id": "rshift",
+            "desc": "右Shift",
+            "cond": [
+                "2.25u",
+                "1.25u + 1u"
+            ],
+            "value": 1
+        }],
+        "rows": [{
+                "keys": [{
                         "col": 0,
                         "row": 0
                     },
@@ -68,8 +74,7 @@
                 ]
             },
             {
-                "keys": [
-                    {
+                "keys": [{
                         "col": 0,
                         "row": 1
                     },
@@ -124,8 +129,7 @@
                 ]
             },
             {
-                "keys": [
-                    {
+                "keys": [{
                         "w": 1.25,
                         "col": 0,
                         "row": 2
@@ -178,8 +182,7 @@
                 ]
             },
             {
-                "keys": [
-                    {
+                "keys": [{
                         "w": 1.75,
                         "col": 0,
                         "row": 3
@@ -221,19 +224,35 @@
                         "row": 3
                     },
                     {
+                        "w": 2.25,
+                        "col": 11,
+                        "row": 3,
+                        "cond": {
+                            "id": "rshift",
+                            "value": 0
+                        }
+                    },
+                    {
                         "col": 10,
-                        "row": 3
+                        "row": 3,
+                        "cond": {
+                            "id": "rshift",
+                            "value": 1
+                        }
                     },
                     {
                         "w": 1.25,
                         "col": 11,
-                        "row": 3
+                        "row": 3,
+                        "cond": {
+                            "id": "rshift",
+                            "value": 1
+                        }
                     }
                 ]
             },
             {
-                "keys": [
-                    {
+                "keys": [{
                         "w": 1.25,
                         "col": 0,
                         "row": 4
