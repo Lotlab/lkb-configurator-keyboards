@@ -1,0 +1,1051 @@
+{
+    "Name": "Farad69",
+    "Vendor": {
+        "Name": "Glab",
+        "Url": "https://glab.online"
+    },
+    "VID": 17254,
+    "PID": 790,
+    "Row": 5,
+    "Col": 15,
+    "Revision": [
+        "Rev.B"
+    ],
+    "Layout": {
+        "conds": [{
+            "id": "backspace",
+            "desc": "Backspace",
+            "cond": [
+                "1u + 1u",
+                "2u"
+            ],
+            "value": 0
+        }],
+        "rows": [
+            {
+                "keys": [
+                    {
+                        "col": 0,
+                        "row": 0
+                    },
+                    {
+                        "col": 1,
+                        "row": 0
+                    },
+                    {
+                        "col": 2,
+                        "row": 0
+                    },
+                    {
+                        "col": 3,
+                        "row": 0
+                    },
+                    {
+                        "col": 4,
+                        "row": 0
+                    },
+                    {
+                        "col": 5,
+                        "row": 0
+                    },
+                    {
+                        "col": 6,
+                        "row": 0
+                    },
+                    {
+                        "col": 7,
+                        "row": 0
+                    },
+                    {
+                        "col": 8,
+                        "row": 0
+                    },
+                    {
+                        "col": 9,
+                        "row": 0
+                    },
+                    {
+                        "col": 10,
+                        "row": 0
+                    },
+                    {
+                        "col": 11,
+                        "row": 0
+                    },
+                    {
+                        "col": 12,
+                        "row": 0
+                    },
+                    {
+                        "col": 13,
+                        "row": 0,
+                        "cond": {
+                            "id": "backspace",
+                            "value": 0
+                        }
+                    },
+                    {
+                        "col": 12,
+                        "row": 4,
+                        "cond": {
+                            "id": "backspace",
+                            "value": 0
+                        }
+                    },
+                    {
+                        "w": 2,
+                        "col": 13,
+                        "row": 0,
+                        "cond": {
+                            "id": "backspace",
+                            "value": 1
+                        }
+                    }
+                ]
+            },
+            {
+                "keys": [
+                    {
+                        "col": 0,
+                        "row": 1
+                    },
+                    {
+                        "col": 1,
+                        "row": 1
+                    },
+                    {
+                        "col": 2,
+                        "row": 1
+                    },
+                    {
+                        "col": 3,
+                        "row": 1
+                    },
+                    {
+                        "col": 4,
+                        "row": 1
+                    },
+                    {
+                        "col": 5,
+                        "row": 1
+                    },
+                    {
+                        "col": 6,
+                        "row": 1
+                    },
+                    {
+                        "col": 7,
+                        "row": 1
+                    },
+                    {
+                        "col": 8,
+                        "row": 1
+                    },
+                    {
+                        "col": 9,
+                        "row": 1
+                    },
+                    {
+                        "col": 10,
+                        "row": 1
+                    },
+                    {
+                        "col": 11,
+                        "row": 1
+                    },
+                    {
+                        "col": 12,
+                        "row": 1
+                    },
+                    {
+                        "col": 13,
+                        "row": 1
+                    },
+                    {
+                        "col": 11,
+                        "row": 4
+                    }
+                ]
+            },
+            {
+                "keys": [
+                    {
+                        "w": 1.25,
+                        "col": 0,
+                        "row": 2
+                    },
+                    {
+                        "col": 1,
+                        "row": 2
+                    },
+                    {
+                        "col": 2,
+                        "row": 2
+                    },
+                    {
+                        "col": 3,
+                        "row": 2
+                    },
+                    {
+                        "col": 4,
+                        "row": 2
+                    },
+                    {
+                        "col": 5,
+                        "row": 2
+                    },
+                    {
+                        "col": 6,
+                        "row": 2
+                    },
+                    {
+                        "col": 7,
+                        "row": 2
+                    },
+                    {
+                        "col": 8,
+                        "row": 2
+                    },
+                    {
+                        "col": 9,
+                        "row": 2
+                    },
+                    {
+                        "w": 1.75,
+                        "col": 10,
+                        "row": 2
+                    },
+                    {
+                        "col": 11,
+                        "row": 2
+                    },
+                    {
+                        "col": 12,
+                        "row": 2
+                    },
+                    {
+                        "col": 13,
+                        "row": 2
+                    }
+                ]
+            },
+            {
+                "keys": [
+                    {
+                        "w": 1.75,
+                        "col": 0,
+                        "row": 3
+                    },
+                    {
+                        "col": 1,
+                        "row": 3
+                    },
+                    {
+                        "col": 2,
+                        "row": 3
+                    },
+                    {
+                        "col": 3,
+                        "row": 3
+                    },
+                    {
+                        "col": 4,
+                        "row": 3
+                    },
+                    {
+                        "col": 5,
+                        "row": 3
+                    },
+                    {
+                        "col": 6,
+                        "row": 3
+                    },
+                    {
+                        "col": 7,
+                        "row": 3
+                    },
+                    {
+                        "col": 8,
+                        "row": 3
+                    },
+                    {
+                        "w": 1.25,
+                        "col": 9,
+                        "row": 3
+                    },
+                    {
+                        "col": 10,
+                        "row": 3
+                    },
+                    {
+                        "col": 11,
+                        "row": 3
+                    },
+                    {
+                        "col": 12,
+                        "row": 3
+                    },
+                    {
+                        "col": 13,
+                        "row": 3
+                    }
+                ]
+            },
+            {
+                "keys": [
+                    {
+                        "w": 1.25,
+                        "col": 0,
+                        "row": 4
+                    },
+                    {
+                        "w": 1.25,
+                        "col": 1,
+                        "row": 4
+                    },
+                    {
+                        "w": 1.25,
+                        "col": 2,
+                        "row": 4
+                    },
+                    {
+                        "w": 2.25,
+                        "col": 3,
+                        "row": 4
+                    },
+                    {
+                        "w": 2.75,
+                        "col": 4,
+                        "row": 4
+                    },
+                    {
+                        "w": 1.25,
+                        "col": 5,
+                        "row": 4
+                    },
+                    {
+                        "col": 6,
+                        "row": 4
+                    },
+                    {
+                        "col": 7,
+                        "row": 4
+                    },
+                    {
+                        "col": 8,
+                        "row": 4
+                    },
+                    {
+                        "col": 9,
+                        "row": 4
+                    },
+                    {
+                        "col": 10,
+                        "row": 4
+                    }
+                ]
+            }
+        ]
+    },
+    "Doc": "## Farad69 \n\n 此键盘是一个60%键盘。 rev.B版本",
+    "Default": {
+        "Keys": [
+            [
+                [
+                    41,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    45,
+                    46,
+                    83,
+                    42
+                ],
+                [
+                    43,
+                    20,
+                    26,
+                    8,
+                    21,
+                    23,
+                    28,
+                    24,
+                    12,
+                    18,
+                    19,
+                    49,
+                    95,
+                    96,
+                    97
+                ],
+                [
+                    57,
+                    4,
+                    22,
+                    7,
+                    9,
+                    10,
+                    11,
+                    13,
+                    14,
+                    15,
+                    null,
+                    40,
+                    92,
+                    93,
+                    94
+                ],
+                [
+                    225,
+                    27,
+                    29,
+                    6,
+                    25,
+                    5,
+                    17,
+                    16,
+                    54,
+                    12855,
+                    82,
+                    89,
+                    90,
+                    null,
+                    91
+                ],
+                [
+                    224,
+                    227,
+                    226,
+                    41260,
+                    null,
+                    null,
+                    44,
+                    null,
+                    12620,
+                    80,
+                    null,
+                    81,
+                    79,
+                    98,
+                    99
+                ]
+            ],
+            [
+                [
+                    53,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    47,
+                    48,
+                    null,
+                    null,
+                    73,
+                    76
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    51,
+                    null,
+                    52,
+                    172,
+                    176,
+                    171
+                ],
+                [
+                    null,
+                    180,
+                    181,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    56,
+                    null,
+                    null,
+                    169,
+                    170,
+                    null,
+                    168
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    75,
+                    78
+                ]
+            ],
+            [
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            ],
+            [
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            ],
+            [
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            ],
+            [
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            ],
+            [
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            ],
+            [
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            ]
+        ]
+    }
+}
