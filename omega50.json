@@ -16,10 +16,10 @@
             "id": "rshift",
             "desc": "右Shift",
             "cond": [
-                "2.25u",
-                "1.25u + 1u"
+                "1.25u + 1u",
+                "2.25u"
             ],
-            "value": 1
+            "value": 0
         }],
         "rows": [{
                 "keys": [{
@@ -229,7 +229,7 @@
                         "row": 3,
                         "cond": {
                             "id": "rshift",
-                            "value": 0
+                            "value": 1
                         }
                     },
                     {
@@ -237,7 +237,7 @@
                         "row": 3,
                         "cond": {
                             "id": "rshift",
-                            "value": 1
+                            "value": 0
                         }
                     },
                     {
@@ -246,7 +246,7 @@
                         "row": 3,
                         "cond": {
                             "id": "rshift",
-                            "value": 1
+                            "value": 0
                         }
                     }
                 ]
