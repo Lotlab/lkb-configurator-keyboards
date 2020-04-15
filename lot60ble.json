@@ -41,10 +41,11 @@
                 "id": "rshift",
                 "desc": "右Shift",
                 "cond": [
-                    "2.75u",
-                    "1.75u + 1u",
-                    "1u + 1.75u",
-                    "1u + 1u + 1u"
+                    "1u + 2.75u",
+                    "1u + 1.75u + 1u",
+                    "2 x 1u + 1.75u",
+                    "4 x 1u",
+                    "1.75u + 3 x 1u"
                 ],
                 "value": 0
             },
@@ -409,7 +410,34 @@
                     },
                     {
                         "col": 11,
-                        "row": 3
+                        "row": 3,
+                        "conds": [
+                            {
+                                "id": "rshift",
+                                "value": 0
+                            },
+                            {
+                                "id": "rshift",
+                                "value": 1
+                            },
+                            {
+                                "id": "rshift",
+                                "value": 2
+                            },
+                            {
+                                "id": "rshift",
+                                "value": 3
+                            }
+                        ]
+                    },
+                    {
+                        "col": 11,
+                        "row": 3,
+                        "w": 1.75,
+                        "cond": {
+                            "id": "rshift",
+                            "value": 4
+                        }
                     },
                     {
                         "col": 7,
@@ -426,6 +454,10 @@
                             {
                                 "id": "rshift",
                                 "value": 3
+                            },
+                            {
+                                "id": "rshift",
+                                "value": 4
                             }
                         ]
                     },
@@ -459,6 +491,10 @@
                             {
                                 "id": "rshift",
                                 "value": 3
+                            },
+                            {
+                                "id": "rshift",
+                                "value": 4
                             }
                         ]
                     },
