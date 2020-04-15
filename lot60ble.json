@@ -541,14 +541,6 @@
                         "row": 4
                     },
                     {
-                        "col": 9,
-                        "row": 4,
-                        "cond": {
-                            "id": "rctrl",
-                            "value": 1
-                        }
-                    },
-                    {
                         "w": 1.25,
                         "col": 10,
                         "row": 4,
@@ -576,6 +568,14 @@
                     },
                     {
                         "col": 11,
+                        "row": 4,
+                        "cond": {
+                            "id": "rctrl",
+                            "value": 1
+                        }
+                    },
+                    {
+                        "col": 8,
                         "row": 4,
                         "cond": {
                             "id": "rctrl",
