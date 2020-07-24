@@ -20,7 +20,10 @@
                 "id": "enter",
                 "desc": "Enter",
                 "cond": [
-                    "普通",
+                    {
+                        "zh": "普通",
+                        "en": "Normal"
+                    },
                     "ISO",
                     "1u + 1.25u"
                 ],
@@ -28,7 +31,10 @@
             },
             {
                 "id": "lshift",
-                "desc": "左Shift",
+                "desc": {
+                    "zh": "左Shift",
+                    "en": "Left Shift"
+                },
                 "cond": [
                     "2.25u",
                     "1.25u + 1u",
@@ -39,7 +45,10 @@
             },
             {
                 "id": "rshift",
-                "desc": "右Shift",
+                "desc": {
+                    "zh": "右Shift",
+                    "en": "Right Shift"
+                },
                 "cond": [
                     "1u + 2.75u",
                     "1u + 1.75u + 1u",
@@ -51,7 +60,10 @@
             },
             {
                 "id": "backspace",
-                "desc": "退格",
+                "desc": {
+                    "zh": "退格",
+                    "en": "Backspace"
+                },
                 "cond": [
                     "2u",
                     "1 + 1u"
@@ -60,7 +72,10 @@
             },
             {
                 "id": "rctrl",
-                "desc": "右下角",
+                "desc": {
+                    "zh": "右下角",
+                    "en": "Right R5"
+                },
                 "cond": [
                     "4x 1.25u",
                     "5x 1u"
