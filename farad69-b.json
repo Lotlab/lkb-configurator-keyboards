@@ -349,6 +349,56 @@
             }
         ]
     },
+    "AdditionFns": [
+        {
+            "id": 16,
+            "opt": 0,
+            "desc": {
+                "upper": "智选ESC",
+                "remarks": "普通：ESC，同时按下Shift：~"
+            }
+        },
+        {
+            "id": 16,
+            "opt": 1,
+            "desc": {
+                "upper": "智选SLSH",
+                "remarks": "普通：>. ，同时按下RShift：?"
+            }
+        },
+        {
+            "id": 16,
+            "opt": 2,
+            "desc": {
+                "upper": "智选ENTER",
+                "remarks": "普通：ENTER，同时按下RShift：”"
+            }
+        },
+        {
+            "id": 16,
+            "opt": 3,
+            "desc": {
+                "upper": "智选L",
+                "remarks": "普通：L，同时按下RShift是 ："
+            }
+        },
+        {
+            "id": 16,
+            "opt": 4,
+            "desc": {
+                "upper": "智选UP",
+                "remarks": "普通：↑ ，同时按下RShift：？"
+            }
+        },
+        {
+            "id": 16,
+            "opt": 5,
+            "desc": {
+                "upper": "智选BSPC",
+                "remarks": "普通：Backspace ，同时按下RShift：|"
+            }
+        }
+    ],
     "Doc": "## Farad69 \n\n 此键盘是一个60%键盘。 rev.B版本",
     "Default": {
         "Keys": [
