@@ -303,7 +303,8 @@
             "id": 16,
             "opt": 0,
             "desc": {
-                "upper": "智选ESC",
+                "upper": "ESC",
+                "lower": "~",
                 "remarks": "普通：ESC，同时按下Shift：~"
             }
         },
@@ -311,7 +312,8 @@
             "id": 16,
             "opt": 1,
             "desc": {
-                "upper": "智选SLSH",
+                "upper": ">.",
+                "lower": "?",
                 "remarks": "普通：>. ，同时按下RShift：?"
             }
         },
@@ -319,15 +321,17 @@
             "id": 16,
             "opt": 2,
             "desc": {
-                "upper": "智选ENTER",
-                "remarks": "普通：ENTER，同时按下RShift：”"
+                "upper": "Enter",
+                "lower": "”",
+                "remarks": "普通：Enter，同时按下RShift：”"
             }
         },
         {
             "id": 16,
             "opt": 3,
             "desc": {
-                "upper": "智选L",
+                "upper": "L",
+                "lower": ":",
                 "remarks": "普通：L，同时按下RShift是 ："
             }
         },
@@ -335,7 +339,8 @@
             "id": 16,
             "opt": 4,
             "desc": {
-                "upper": "智选UP",
+                "upper": "↑",
+                "lower": "?",
                 "remarks": "普通：↑ ，同时按下RShift：？"
             }
         },
@@ -343,7 +348,8 @@
             "id": 16,
             "opt": 5,
             "desc": {
-                "upper": "智选BSPC",
+                "upper": "Backspace",
+                "lower": "|",
                 "remarks": "普通：Backspace ，同时按下RShift：|"
             }
         }
