@@ -9,7 +9,14 @@
     "Row": 5,
     "Col": 14,
     "Revision": [
-        ""
+        "Rev.A",
+        "Rev.B",
+        "Rev.C",
+        "Rev.D",
+        "Rev.E",
+        "Rev.F",
+        "Rev.G",
+        "Rev.H"
     ],
     "Layout": {
         "conds": [
