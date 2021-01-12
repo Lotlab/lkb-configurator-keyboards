@@ -1,0 +1,496 @@
+{
+    "Name": "GT PAD",
+    "Vendor": {
+        "Name": "Glab",
+        "Url": "https://glab.online"
+    },
+    "VID": 17254,
+    "PID": 794,
+    "Row": 5,
+    "Col": 5,
+    "Revision": [
+        "Rev.A",
+        "Rev.B",
+        "Rev.C",
+        "Rev.D",
+        "Rev.E",
+        "Rev.F",
+        "Rev.G",
+        "Rev.H"
+    ],
+    "Layout": {
+        "conds": [],
+        "rows": [
+            {
+                "keys": [
+                    {
+                        "col": 0,
+                        "row": 0
+                    },
+                    {
+                        "col": 1,
+                        "row": 0
+                    },
+                    {
+                        "col": 2,
+                        "row": 0
+                    },
+                    {
+                        "col": 3,
+                        "row": 0
+                    }
+                ]
+            },
+            {
+                "keys": [
+                    {
+                        "col": 0,
+                        "row": 1
+                    },
+                    {
+                        "col": 1,
+                        "row": 1
+                    },
+                    {
+                        "col": 2,
+                        "row": 1
+                    },
+                    {
+                        "w":1,
+                        "h":2,
+                        "col": 3,
+                        "row": 1
+                    }
+                ]
+            },
+            {
+                "keys": [
+                    {
+                        "col": 0,
+                        "row": 2
+                    },
+                    {
+                        "col": 1,
+                        "row": 2
+                    },
+                    {
+                        "col": 2,
+                        "row": 2
+                    }
+                ]
+            },
+            {
+                "keys": [
+                    {
+                        "col": 0,
+                        "row": 3
+                    },
+                    {
+                        "col": 1,
+                        "row": 3
+                    },
+                    {
+                        "col": 2,
+                        "row": 3
+                    },
+                    {
+                        "w":1,
+                        "h":2,
+                        "col": 3,
+                        "row": 3
+                    }
+                ]
+            },
+            {
+                "keys": [
+                    {
+                        "w": 2,
+                        "col": 0,
+                        "row": 4
+                    },
+                    {
+                        "w": 1,
+                        "col": 2,
+                        "row": 4
+                    }
+                ]
+            },
+            {
+                "keys": [
+                    {
+                        "w": 1.25,
+                        "col": 1,
+                        "row": 4
+                    },
+                    {
+                        "w": 1.25,
+                        "col": 3,
+                        "row": 4
+                    },
+                    {
+                        "w": 1.5,
+                        "col": 4,
+                        "row": 4
+                    }
+                ]
+            }
+        ]
+    },
+    "AdditionFns": [
+        {
+            "id": 16,
+            "opt": 0,
+            "desc": {
+                "upper": "ESC",
+                "lower": "~",
+                "remarks": "普通：ESC，同时按下Shift：~"
+            }
+        },
+        {
+            "id": 16,
+            "opt": 1,
+            "desc": {
+                "upper": ">.",
+                "lower": "?",
+                "remarks": "普通：>. ，同时按下RShift：?"
+            }
+        },
+        {
+            "id": 16,
+            "opt": 2,
+            "desc": {
+                "upper": "Enter",
+                "lower": "”",
+                "remarks": "普通：Enter，同时按下RShift：”"
+            }
+        },
+        {
+            "id": 16,
+            "opt": 3,
+            "desc": {
+                "upper": "L",
+                "lower": ":",
+                "remarks": "普通：L，同时按下RShift是 ："
+            }
+        },
+        {
+            "id": 16,
+            "opt": 4,
+            "desc": {
+                "upper": "↑",
+                "lower": "?",
+                "remarks": "普通：↑ ，同时按下RShift：？"
+            }
+        },
+        {
+            "id": 16,
+            "opt": 5,
+            "desc": {
+                "upper": "Backspace",
+                "lower": "|",
+                "remarks": "普通：Backspace ，同时按下RShift：|"
+            }
+        }
+    ],
+    "Doc": "## GT PAD \n\n 此键盘是一个标准的数字小键盘",
+    "Default": {
+        "Keys": [
+            [
+                [
+                    83,
+                    84,
+                    85,
+                    86,
+                    null
+                ],
+                [
+                    95,
+                    96,
+                    97,
+                    87,
+                    null
+                ],
+                [
+                    92,
+                    93,
+                    94,
+                    null,
+                    null
+                ],
+                [
+                    89,
+                    90,
+                    91,
+                    88,
+                    null
+                ],
+                [
+                    98,
+                    169,
+                    99,
+                    170,
+                    83
+                ]
+            ],
+            [
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            ],
+            [
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            ],
+            [
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            ],
+            [
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            ],
+            [
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            ],
+            [
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            ],
+            [
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            ]
+        ]
+    }
+}
