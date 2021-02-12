@@ -295,7 +295,189 @@
             }
         ]
     },
-    "Doc": "## GT-BLE60 \n\n 此键盘是一个60%键盘",
+    "AdditionFns": [
+        {
+            "id": 16,
+            "opt": 0,
+            "desc": {
+                "upper": "ESC",
+                "lower": "~",
+                "remarks": "普通：ESC，同时按下Shift：~"
+            }
+        },
+        {
+            "id": 16,
+            "opt": 1,
+            "desc": {
+                "upper": ">.",
+                "lower": "?",
+                "remarks": "普通：>. ，同时按下RShift：?"
+            }
+        },
+        {
+            "id": 16,
+            "opt": 2,
+            "desc": {
+                "upper": "Enter",
+                "lower": "”",
+                "remarks": "普通：Enter，同时按下RShift：”"
+            }
+        },
+        {
+            "id": 16,
+            "opt": 3,
+            "desc": {
+                "upper": "L",
+                "lower": ":",
+                "remarks": "普通：L，同时按下RShift是 ："
+            }
+        },
+        {
+            "id": 16,
+            "opt": 4,
+            "desc": {
+                "upper": "↑",
+                "lower": "?",
+                "remarks": "普通：↑ ，同时按下RShift：？"
+            }
+        },
+        {
+            "id": 16,
+            "opt": 5,
+            "desc": {
+                "upper": "Backspace",
+                "lower": "|",
+                "remarks": "普通：Backspace ，同时按下RShift：|"
+            }
+        },
+        {
+            "id": 1,
+            "opt": 8,
+            "desc": {
+                "upper": "BT",
+                "lower": "1",
+                "remarks": "蓝牙通道一"
+            }
+        },
+        {
+            "id": 1,
+            "opt": 9,
+            "desc": {
+                "upper": "BT",
+                "lower": "2",
+                "remarks": "蓝牙通道二"
+            }
+        },
+        {
+            "id": 1,
+            "opt": 10,
+            "desc": {
+                "upper": "BT",
+                "lower": "3",
+                "remarks": "蓝牙通道三"
+            }
+        },
+        {
+            "id": 1,
+            "opt": 11,
+            "desc": {
+                "upper": "BT",
+                "lower": "广播",
+                "remarks": "重新蓝牙广播"
+            }
+        },
+        {
+            "id": 1,
+            "opt": 7,
+            "desc": {
+                "upper": "BT",
+                "lower": "解除绑定",
+                "remarks": "解除蓝牙绑定"
+            }
+        },
+        {
+            "id": 17,
+            "opt": 0,
+            "desc": {
+                "upper": "RGB",
+                "lower": "模式",
+                "remarks": "切换RGB灯效模式"
+            }
+        },
+        {
+            "id": 17,
+            "opt": 1,
+            "desc": {
+                "upper": "RGB",
+                "lower": "开关",
+                "remarks": "开关RGB轴灯"
+            }
+        },
+        {
+            "id": 17,
+            "opt": 2,
+            "desc": {
+                "upper": "RGB",
+                "lower": "色调+",
+                "remarks": "RGB灯色调+"
+            }
+        },
+        {
+            "id": 17,
+            "opt": 3,
+            "desc": {
+                "upper": "RGB",
+                "lower": "色调-",
+                "remarks": "RGB灯色调-"
+            }
+        },
+        {
+            "id": 17,
+            "opt": 4,
+            "desc": {
+                "upper": "RGB",
+                "lower": "饱和度+",
+                "remarks": "RGB灯饱和度+"
+            }
+        },
+        {
+            "id": 17,
+            "opt": 5,
+            "desc": {
+                "upper": "RGB",
+                "lower": "饱和度-",
+                "remarks": "RGB灯饱和度-"
+            }
+        },
+        {
+            "id": 17,
+            "opt": 6,
+            "desc": {
+                "upper": "RGB",
+                "lower": "明度+",
+                "remarks": "RGB灯明度+"
+            }
+        },
+        {
+            "id": 17,
+            "opt": 7,
+            "desc": {
+                "upper": "RGB",
+                "lower": "明度-",
+                "remarks": "RGB灯明度-"
+            }
+        },
+        {
+            "id": 17,
+            "opt": 8,
+            "desc": {
+                "upper": "RGB",
+                "lower": "功能",
+                "remarks": "切换指示灯与RGB轴灯功能"
+            }
+        }
+    ],
+    "Doc": "## GT-BLE60 Rev.E \n\n 此键盘是一个60%键盘，支持线刷的新硬件",
     "Default": {
         "Keys": [
             [
