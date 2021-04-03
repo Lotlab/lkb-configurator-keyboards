@@ -11,6 +11,7 @@
     "Revision": [
         "Rev.A"
     ],
+    "Hidden": true,
     "Layout": {
         "conds": [{
             "id": "rshift",

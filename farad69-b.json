@@ -11,6 +11,7 @@
     "Revision": [
         "Rev.B"
     ],
+    "Hidden": true,
     "Layout": {
         "conds": [
             {
