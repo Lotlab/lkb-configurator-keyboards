@@ -1,0 +1,304 @@
+{
+    "Name": "LotPad",
+    "Vendor": {
+        "Name": "Lotlab",
+        "Url": "https://lotlab.org"
+    },
+    "VID": 276,
+    "PID": 1173,
+    "Row": 5,
+    "Col": 5,
+    "Revision": [
+        "Rev.A"
+    ],
+    "Hidden": true,
+    "Layout": {
+        "conds": [
+            {
+                "id": "rot",
+                "desc": {
+                    "zh": "编码器",
+                    "en": "Encoder"
+                },
+                "cond": [
+                    {
+                        "zh": "按键",
+                        "en": "Key"
+                    },
+                    {
+                        "zh": "编码器",
+                        "en": "Encoder"
+                    }
+                ],
+                "value": 0
+            }
+        ],
+        "rows": [
+            {
+                "keys": [
+                    {
+                        "w": 2,
+                        "col": 4,
+                        "row": 0,
+                        "cond": {
+                            "id": "rot",
+                            "value": 1
+                        }
+                    },
+                    {
+                        "w": 2,
+                        "col": 4,
+                        "row": 1,
+                        "cond": {
+                            "id": "rot",
+                            "value": 1
+                        }
+                    }
+                ]
+            },
+            {
+                "keys": [
+                    {
+                        "col": 0,
+                        "row": 0,
+                        "cond": {
+                            "id": "rot",
+                            "value": 0
+                        }
+                    },
+                    {
+                        "col": 0,
+                        "row": 0,
+                        "cond": {
+                            "id": "rot",
+                            "value": 1
+                        }
+                    },
+                    {
+                        "col": 1,
+                        "row": 0
+                    },
+                    {
+                        "col": 2,
+                        "row": 0
+                    },
+                    {
+                        "col": 3,
+                        "row": 0
+                    }
+                ]
+            },
+            {
+                "keys": [
+                    {
+                        "col": 0,
+                        "row": 1
+                    },
+                    {
+                        "col": 1,
+                        "row": 1
+                    },
+                    {
+                        "col": 2,
+                        "row": 1
+                    },
+                    {
+                        "w": 1,
+                        "h": 2,
+                        "col": 3,
+                        "row": 1
+                    }
+                ]
+            },
+            {
+                "keys": [
+                    {
+                        "col": 0,
+                        "row": 2
+                    },
+                    {
+                        "col": 1,
+                        "row": 2
+                    },
+                    {
+                        "col": 2,
+                        "row": 2
+                    }
+                ]
+            },
+            {
+                "keys": [
+                    {
+                        "col": 0,
+                        "row": 3
+                    },
+                    {
+                        "col": 1,
+                        "row": 3
+                    },
+                    {
+                        "col": 2,
+                        "row": 3
+                    },
+                    {
+                        "w": 1,
+                        "h": 2,
+                        "col": 3,
+                        "row": 3
+                    }
+                ]
+            },
+            {
+                "keys": [
+                    {
+                        "w": 2,
+                        "col": 0,
+                        "row": 4
+                    },
+                    {
+                        "w": 1,
+                        "col": 2,
+                        "row": 4
+                    }
+                ]
+            }
+        ]
+    },
+    "AdditionFns": [
+        {
+            "id": 2,
+            "opt": 0,
+            "desc": {
+                "upper": "手柄按钮1"
+            }
+        },
+        {
+            "id": 2,
+            "opt": 1,
+            "desc": {
+                "upper": "手柄按钮2"
+            }
+        },
+        {
+            "id": 2,
+            "opt": 2,
+            "desc": {
+                "upper": "手柄按钮3"
+            }
+        },
+        {
+            "id": 2,
+            "opt": 3,
+            "desc": {
+                "upper": "手柄按钮4"
+            }
+        },
+        {
+            "id": 2,
+            "opt": 4,
+            "desc": {
+                "upper": "手柄按钮5"
+            }
+        },
+        {
+            "id": 2,
+            "opt": 5,
+            "desc": {
+                "upper": "手柄按钮6"
+            }
+        },
+        {
+            "id": 2,
+            "opt": 6,
+            "desc": {
+                "upper": "手柄按钮7"
+            }
+        },
+        {
+            "id": 2,
+            "opt": 7,
+            "desc": {
+                "upper": "手柄按钮8"
+            }
+        },
+        {
+            "id": 2,
+            "opt": 8,
+            "desc": {
+                "upper": "手柄方向1"
+            }
+        },
+        {
+            "id": 2,
+            "opt": 9,
+            "desc": {
+                "upper": "手柄方向2"
+            }
+        },
+        {
+            "id": 2,
+            "opt": 10,
+            "desc": {
+                "upper": "手柄方向3"
+            }
+        },
+        {
+            "id": 2,
+            "opt": 11,
+            "desc": {
+                "upper": "手柄方向4"
+            }
+        },
+        {
+            "id": 2,
+            "opt": 12,
+            "desc": {
+                "upper": "手柄方向5"
+            }
+        },
+        {
+            "id": 2,
+            "opt": 13,
+            "desc": {
+                "upper": "手柄方向6"
+            }
+        },
+        {
+            "id": 2,
+            "opt": 14,
+            "desc": {
+                "upper": "手柄方向7"
+            }
+        },
+        {
+            "id": 2,
+            "opt": 15,
+            "desc": {
+                "upper": "手柄方向8"
+            }
+        },
+        {
+            "id": 3,
+            "opt": 0,
+            "desc": {
+                "upper": "转盘按键"
+            }
+        },
+        {
+            "id": 3,
+            "opt": 1,
+            "desc": {
+                "upper": "转盘+"
+            }
+        },
+        {
+            "id": 3,
+            "opt": 15,
+            "desc": {
+                "upper": "转盘-"
+            }
+        }
+    ],
+    "Doc": "## LotPad \n\n 测试键盘",
+    "Default": {}
+}
