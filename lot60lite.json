@@ -1,0 +1,679 @@
+{
+    "Name": "Lot60-Lite",
+    "Vendor": {
+        "Name": "Lotlab",
+        "Url": "https://lotlab.org"
+    },
+    "VID": 276,
+    "PID": 1301,
+    "Row": 10,
+    "Col": 7,
+    "Revision": [
+        "Rev.A"
+    ],
+    "Layout": {
+        "conds": [
+            {
+                "id": "enter",
+                "desc": "Enter",
+                "cond": [
+                    {
+                        "zh": "普通",
+                        "en": "Normal"
+                    },
+                    "ISO",
+                    "1u + 1.25u"
+                ],
+                "value": 0
+            },
+            {
+                "id": "lshift",
+                "desc": {
+                    "zh": "左Shift",
+                    "en": "Left Shift"
+                },
+                "cond": [
+                    "2.25u",
+                    "1.25u + 1u",
+                    "2u",
+                    "1u + 1u"
+                ],
+                "value": 0
+            },
+            {
+                "id": "rshift",
+                "desc": {
+                    "zh": "右Shift",
+                    "en": "Right Shift"
+                },
+                "cond": [
+                    "1u + 2.75u",
+                    "1u + 1.75u + 1u",
+                    "2 x 1u + 1.75u",
+                    "4 x 1u",
+                    "1.75u + 2 x 1u"
+                ],
+                "value": 0
+            },
+            {
+                "id": "backspace",
+                "desc": {
+                    "zh": "退格",
+                    "en": "Backspace"
+                },
+                "cond": [
+                    "2u",
+                    "1 + 1u"
+                ],
+                "value": 0
+            },
+            {
+                "id": "rctrl",
+                "desc": {
+                    "zh": "右下角",
+                    "en": "Right R5"
+                },
+                "cond": [
+                    "4x 1.25u",
+                    "5x 1u"
+                ],
+                "value": 0
+            },
+            {
+                "id": "space",
+                "desc": {
+                    "zh": "空格",
+                    "en": "Space"
+                },
+                "cond": [
+                    "6.25u",
+                    "2.25u + 2.75u + 1.25u"
+                ],
+                "value": 0
+            }
+        ],
+        "rows": [
+            {
+                "keys": [
+                    {
+                        "col": 0,
+                        "row": 0
+                    },
+                    {
+                        "col": 0,
+                        "row": 1
+                    },
+                    {
+                        "col": 1,
+                        "row": 0
+                    },
+                    {
+                        "col": 1,
+                        "row": 1
+                    },
+                    {
+                        "col": 2,
+                        "row": 0
+                    },
+                    {
+                        "col": 2,
+                        "row": 1
+                    },
+                    {
+                        "col": 3,
+                        "row": 0
+                    },
+                    {
+                        "col": 3,
+                        "row": 1
+                    },
+                    {
+                        "col": 4,
+                        "row": 0
+                    },
+                    {
+                        "col": 4,
+                        "row": 1
+                    },
+                    {
+                        "col": 5,
+                        "row": 0
+                    },
+                    {
+                        "col": 5,
+                        "row": 1
+                    },
+                    {
+                        "col": 6,
+                        "row": 0
+                    },
+                    {
+                        "w": 2,
+                        "col": 6,
+                        "row": 1,
+                        "cond": {
+                            "id": "backspace",
+                            "value": 0
+                        }
+                    },
+                    {
+                        "col": 6,
+                        "row": 1,
+                        "cond": {
+                            "id": "backspace",
+                            "value": 1
+                        }
+                    },
+                    {
+                        "col": 4,
+                        "row": 9,
+                        "cond": {
+                            "id": "backspace",
+                            "value": 1
+                        }
+                    }
+                ]
+            },
+            {
+                "keys": [
+                    {
+                        "w": 1.5,
+                        "col": 0,
+                        "row": 2
+                    },
+                    {
+                        "col": 0,
+                        "row": 3
+                    },
+                    {
+                        "col": 1,
+                        "row": 2
+                    },
+                    {
+                        "col": 1,
+                        "row": 3
+                    },
+                    {
+                        "col": 2,
+                        "row": 2
+                    },
+                    {
+                        "col": 2,
+                        "row": 3
+                    },
+                    {
+                        "col": 3,
+                        "row": 2
+                    },
+                    {
+                        "col": 3,
+                        "row": 3
+                    },
+                    {
+                        "col": 4,
+                        "row": 2
+                    },
+                    {
+                        "col": 4,
+                        "row": 3
+                    },
+                    {
+                        "col": 5,
+                        "row": 2
+                    },
+                    {
+                        "col": 5,
+                        "row": 3
+                    },
+                    {
+                        "col": 6,
+                        "row": 2
+                    },
+                    {
+                        "w": 1.5,
+                        "col": 6,
+                        "row": 3,
+                        "conds": [
+                            {
+                                "id": "enter",
+                                "value": 0
+                            },
+                            {
+                                "id": "enter",
+                                "value": 2
+                            }
+                        ]
+                    },
+                    {
+                        "x": 0.25,
+                        "w": 1.25,
+                        "h": 2,
+                        "w2": 1.5,
+                        "h2": 1,
+                        "x2": -0.25,
+                        "col": 6,
+                        "row": 5,
+                        "cond": {
+                            "id": "enter",
+                            "value": 1
+                        }
+                    }
+                ]
+            },
+            {
+                "keys": [
+                    {
+                        "w": 1.75,
+                        "col": 0,
+                        "row": 4
+                    },
+                    {
+                        "col": 0,
+                        "row": 5
+                    },
+                    {
+                        "col": 1,
+                        "row": 4
+                    },
+                    {
+                        "col": 1,
+                        "row": 5
+                    },
+                    {
+                        "col": 2,
+                        "row": 4
+                    },
+                    {
+                        "col": 2,
+                        "row": 5
+                    },
+                    {
+                        "col": 3,
+                        "row": 4
+                    },
+                    {
+                        "col": 3,
+                        "row": 5
+                    },
+                    {
+                        "col": 4,
+                        "row": 4
+                    },
+                    {
+                        "col": 4,
+                        "row": 5
+                    },
+                    {
+                        "col": 5,
+                        "row": 4
+                    },
+                    {
+                        "col": 5,
+                        "row": 5
+                    },
+                    {
+                        "col": 6,
+                        "row": 4,
+                        "conds": [
+                            {
+                                "id": "enter",
+                                "value": 1
+                            },
+                            {
+                                "id": "enter",
+                                "value": 2
+                            }
+                        ]
+                    },
+                    {
+                        "w": 2.25,
+                        "col": 6,
+                        "row": 5,
+                        "cond": {
+                            "id": "enter",
+                            "value": 0
+                        }
+                    },
+                    {
+                        "w": 1.25,
+                        "col": 6,
+                        "row": 5,
+                        "cond": {
+                            "id": "enter",
+                            "value": 2
+                        }
+                    }
+                ]
+            },
+            {
+                "keys": [
+                    {
+                        "w": 2.25,
+                        "col": 0,
+                        "row": 6,
+                        "cond": {
+                            "id": "lshift",
+                            "value": 0
+                        }
+                    },
+                    {
+                        "w": 1.25,
+                        "col": 0,
+                        "row": 6,
+                        "cond": {
+                            "id": "lshift",
+                            "value": 1
+                        }
+                    },
+                    {
+                        "w": 2,
+                        "col": 0,
+                        "row": 6,
+                        "cond": {
+                            "id": "lshift",
+                            "value": 2
+                        }
+                    },
+                    {
+                        "col": 0,
+                        "row": 6,
+                        "cond": {
+                            "id": "lshift",
+                            "value": 3
+                        }
+                    },
+                    {
+                        "col": 0,
+                        "row": 7,
+                        "conds": [
+                            {
+                                "id": "lshift",
+                                "value": 1
+                            },
+                            {
+                                "id": "lshift",
+                                "value": 3
+                            }
+                        ]
+                    },
+                    {
+                        "col": 1,
+                        "row": 6
+                    },
+                    {
+                        "col": 1,
+                        "row": 7
+                    },
+                    {
+                        "col": 2,
+                        "row": 6
+                    },
+                    {
+                        "col": 2,
+                        "row": 7
+                    },
+                    {
+                        "col": 3,
+                        "row": 6
+                    },
+                    {
+                        "col": 3,
+                        "row": 7
+                    },
+                    {
+                        "col": 4,
+                        "row": 6
+                    },
+                    {
+                        "col": 4,
+                        "row": 7
+                    },
+                    {
+                        "col": 5,
+                        "row": 6
+                    },
+                    {
+                        "col": 5,
+                        "row": 7,
+                        "conds": [
+                            {
+                                "id": "rshift",
+                                "value": 0
+                            },
+                            {
+                                "id": "rshift",
+                                "value": 1
+                            },
+                            {
+                                "id": "rshift",
+                                "value": 2
+                            },
+                            {
+                                "id": "rshift",
+                                "value": 3
+                            }
+                        ]
+                    },
+                    {
+                        "col": 5,
+                        "row": 7,
+                        "w": 1.75,
+                        "cond": {
+                            "id": "rshift",
+                            "value": 4
+                        }
+                    },
+                    {
+                        "col": 3,
+                        "row": 9,
+                        "cond": {
+                            "id": "rshift",
+                            "value": 3
+                        }
+                    },
+                    {
+                        "col": 6,
+                        "row": 7,
+                        "conds": [
+                            {
+                                "id": "rshift",
+                                "value": 3
+                            },
+                            {
+                                "id": "rshift",
+                                "value": 4
+                            }
+                        ]
+                    },
+                    {
+                        "col": 6,
+                        "row": 6,
+                        "conds": [
+                            {
+                                "id": "rshift",
+                                "value": 2
+                            }
+                        ]
+                    },
+                    {
+                        "w": 1.75,
+                        "col": 6,
+                        "row": 7,
+                        "cond": {
+                            "id": "rshift",
+                            "value": 1
+                        }
+                    },
+                    {
+                        "col": 6,
+                        "row": 6,
+                        "conds": [
+                            {
+                                "id": "rshift",
+                                "value": 1
+                            },
+                            {
+                                "id": "rshift",
+                                "value": 3
+                            },
+                            {
+                                "id": "rshift",
+                                "value": 4
+                            }
+                        ]
+                    },
+                    {
+                        "w": 1.75,
+                        "col": 6,
+                        "row": 7,
+                        "cond": {
+                            "id": "rshift",
+                            "value": 2
+                        }
+                    },
+                    {
+                        "w": 2.75,
+                        "col": 6,
+                        "row": 7,
+                        "cond": {
+                            "id": "rshift",
+                            "value": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "keys": [
+                    {
+                        "w": 1.25,
+                        "col": 0,
+                        "row": 8
+                    },
+                    {
+                        "w": 1.25,
+                        "col": 0,
+                        "row": 9
+                    },
+                    {
+                        "w": 1.25,
+                        "col": 1,
+                        "row": 8
+                    },
+                    {
+                        "w": 6.25,
+                        "col": 2,
+                        "row": 9,
+                        "cond": {
+                            "id": "space",
+                            "value": 0
+                        }
+                    },
+                    {
+                        "w": 2.25,
+                        "col": 1,
+                        "row": 9,
+                        "cond": {
+                            "id": "space",
+                            "value": 1
+                        }
+                    },
+                    {
+                        "w": 2.75,
+                        "col": 2,
+                        "row": 9,
+                        "cond": {
+                            "id": "space",
+                            "value": 1
+                        }
+                    },
+                    {
+                        "w": 1.25,
+                        "col": 3,
+                        "row": 9,
+                        "cond": {
+                            "id": "space",
+                            "value": 1
+                        }
+                    },
+                    {
+                        "w": 1.25,
+                        "col": 5,
+                        "row": 8,
+                        "cond": {
+                            "id": "rctrl",
+                            "value": 0
+                        }
+                    },
+                    {
+                        "col": 5,
+                        "row": 8,
+                        "cond": {
+                            "id": "rctrl",
+                            "value": 1
+                        }
+                    },
+                    {
+                        "w": 1.25,
+                        "col": 5,
+                        "row": 9,
+                        "cond": {
+                            "id": "rctrl",
+                            "value": 0
+                        }
+                    },
+                    {
+                        "col": 5,
+                        "row": 9,
+                        "cond": {
+                            "id": "rctrl",
+                            "value": 1
+                        }
+                    },
+                    {
+                        "col": 4,
+                        "row": 8,
+                        "cond": {
+                            "id": "rctrl",
+                            "value": 1
+                        }
+                    },
+                    {
+                        "w": 1.25,
+                        "col": 6,
+                        "row": 8,
+                        "cond": {
+                            "id": "rctrl",
+                            "value": 0
+                        }
+                    },
+                    {
+                        "col": 6,
+                        "row": 8,
+                        "cond": {
+                            "id": "rctrl",
+                            "value": 1
+                        }
+                    },
+                    {
+                        "w": 1.25,
+                        "col": 6,
+                        "row": 9,
+                        "cond": {
+                            "id": "rctrl",
+                            "value": 0
+                        }
+                    },
+                    {
+                        "col": 6,
+                        "row": 9,
+                        "cond": {
+                            "id": "rctrl",
+                            "value": 1
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "Doc": "## Lot60-Lite"
+}
