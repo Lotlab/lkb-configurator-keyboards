@@ -570,8 +570,8 @@
                     },
                     {
                         "w": 2.25,
-                        "col": 1,
-                        "row": 9,
+                        "col": 2,
+                        "row": 8,
                         "cond": {
                             "id": "space",
                             "value": 1
@@ -580,7 +580,7 @@
                     {
                         "w": 2.75,
                         "col": 2,
-                        "row": 9,
+                        "row": 8,
                         "cond": {
                             "id": "space",
                             "value": 1
@@ -588,8 +588,8 @@
                     },
                     {
                         "w": 1.25,
-                        "col": 3,
-                        "row": 9,
+                        "col": 4,
+                        "row": 8,
                         "cond": {
                             "id": "space",
                             "value": 1
