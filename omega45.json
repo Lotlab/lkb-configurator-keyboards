@@ -361,7 +361,7 @@
             "desc": {
                 "upper": "RGB",
                 "lower": "模式",
-                "remarks": "切换RGB灯效模式"
+                "remarks": "切换RGB轴灯灯效模式"
             }
         },
         {
@@ -379,7 +379,7 @@
             "desc": {
                 "upper": "RGB",
                 "lower": "色调+",
-                "remarks": "RGB灯色调+"
+                "remarks": "RGB轴灯色调+"
             }
         },
         {
@@ -388,7 +388,7 @@
             "desc": {
                 "upper": "RGB",
                 "lower": "色调-",
-                "remarks": "RGB灯色调-"
+                "remarks": "RGB轴灯色调-"
             }
         },
         {
@@ -397,7 +397,7 @@
             "desc": {
                 "upper": "RGB",
                 "lower": "饱和度+",
-                "remarks": "RGB灯饱和度+"
+                "remarks": "RGB轴灯饱和度+"
             }
         },
         {
@@ -406,7 +406,7 @@
             "desc": {
                 "upper": "RGB",
                 "lower": "饱和度-",
-                "remarks": "RGB灯饱和度-"
+                "remarks": "RGB轴灯饱和度-"
             }
         },
         {
@@ -415,7 +415,7 @@
             "desc": {
                 "upper": "RGB",
                 "lower": "明度+",
-                "remarks": "RGB灯明度+"
+                "remarks": "RGB轴灯明度+"
             }
         },
         {
@@ -424,7 +424,7 @@
             "desc": {
                 "upper": "RGB",
                 "lower": "明度-",
-                "remarks": "RGB灯明度-"
+                "remarks": "RGB轴灯明度-"
             }
         },
         {
@@ -434,6 +434,78 @@
                 "upper": "RGB",
                 "lower": "功能",
                 "remarks": "切换指示灯与RGB轴灯功能"
+            }
+        },
+        {
+            "id": 18,
+            "opt": 0,
+            "desc": {
+                "upper": "💡",
+                "lower": "模式",
+                "remarks": "切换WS2812灯效模式"
+            }
+        },
+        {
+            "id": 18,
+            "opt": 1,
+            "desc": {
+                "upper": "💡",
+                "lower": "开关",
+                "remarks": "开关WS2812轴灯"
+            }
+        },
+        {
+            "id": 18,
+            "opt": 2,
+            "desc": {
+                "upper": "💡",
+                "lower": "色调+",
+                "remarks": "WS2812灯色调+"
+            }
+        },
+        {
+            "id": 18,
+            "opt": 3,
+            "desc": {
+                "upper": "💡",
+                "lower": "色调-",
+                "remarks": "WS2812灯色调-"
+            }
+        },
+        {
+            "id": 18,
+            "opt": 4,
+            "desc": {
+                "upper": "💡",
+                "lower": "饱和度+",
+                "remarks": "WS2812灯饱和度+"
+            }
+        },
+        {
+            "id": 18,
+            "opt": 5,
+            "desc": {
+                "upper": "💡",
+                "lower": "饱和度-",
+                "remarks": "WS2812灯饱和度-"
+            }
+        },
+        {
+            "id": 18,
+            "opt": 6,
+            "desc": {
+                "upper": "💡",
+                "lower": "明度+",
+                "remarks": "WS2812灯明度+"
+            }
+        },
+        {
+            "id": 18,
+            "opt": 7,
+            "desc": {
+                "upper": "💡",
+                "lower": "明度-",
+                "remarks": "WS2812灯明度-"
             }
         }
     ],

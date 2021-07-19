@@ -616,7 +616,7 @@
             "desc": {
                 "upper": "RGB",
                 "lower": "模式",
-                "remarks": "切换RGB灯效模式"
+                "remarks": "切换RGB轴灯灯效模式"
             }
         },
         {
@@ -634,7 +634,7 @@
             "desc": {
                 "upper": "RGB",
                 "lower": "色调+",
-                "remarks": "RGB灯色调+"
+                "remarks": "RGB轴灯色调+"
             }
         },
         {
@@ -643,7 +643,7 @@
             "desc": {
                 "upper": "RGB",
                 "lower": "色调-",
-                "remarks": "RGB灯色调-"
+                "remarks": "RGB轴灯色调-"
             }
         },
         {
@@ -652,7 +652,7 @@
             "desc": {
                 "upper": "RGB",
                 "lower": "饱和度+",
-                "remarks": "RGB灯饱和度+"
+                "remarks": "RGB轴灯饱和度+"
             }
         },
         {
@@ -661,7 +661,7 @@
             "desc": {
                 "upper": "RGB",
                 "lower": "饱和度-",
-                "remarks": "RGB灯饱和度-"
+                "remarks": "RGB轴灯饱和度-"
             }
         },
         {
@@ -670,7 +670,7 @@
             "desc": {
                 "upper": "RGB",
                 "lower": "明度+",
-                "remarks": "RGB灯明度+"
+                "remarks": "RGB轴灯明度+"
             }
         },
         {
@@ -679,7 +679,7 @@
             "desc": {
                 "upper": "RGB",
                 "lower": "明度-",
-                "remarks": "RGB灯明度-"
+                "remarks": "RGB轴灯明度-"
             }
         },
         {
