@@ -172,6 +172,60 @@
     },
     "AdditionFns": [
         {
+            "id": 16,
+            "opt": 0,
+            "desc": {
+                "upper": "ESC",
+                "lower": "~",
+                "remarks": "普通：ESC，同时按下Shift：~"
+            }
+        },
+        {
+            "id": 16,
+            "opt": 1,
+            "desc": {
+                "upper": ">.",
+                "lower": "?",
+                "remarks": "普通：>. ，同时按下RShift：?"
+            }
+        },
+        {
+            "id": 16,
+            "opt": 2,
+            "desc": {
+                "upper": "Enter",
+                "lower": "”",
+                "remarks": "普通：Enter，同时按下RShift：”"
+            }
+        },
+        {
+            "id": 16,
+            "opt": 3,
+            "desc": {
+                "upper": "L",
+                "lower": ":",
+                "remarks": "普通：L，同时按下RShift是 ："
+            }
+        },
+        {
+            "id": 16,
+            "opt": 4,
+            "desc": {
+                "upper": "↑",
+                "lower": "?",
+                "remarks": "普通：↑ ，同时按下RShift：？"
+            }
+        },
+        {
+            "id": 16,
+            "opt": 5,
+            "desc": {
+                "upper": "Backspace",
+                "lower": "|",
+                "remarks": "普通：Backspace ，同时按下RShift：|"
+            }
+        },
+        {
             "id": 1,
             "opt": 8,
             "desc": {
@@ -295,6 +349,78 @@
                 "upper": "RGB",
                 "lower": "功能",
                 "remarks": "切换指示灯与RGB轴灯功能"
+            }
+        },
+        {
+            "id": 18,
+            "opt": 0,
+            "desc": {
+                "upper": "WS2812",
+                "lower": "模式",
+                "remarks": "切换WS2812灯效模式"
+            }
+        },
+        {
+            "id": 18,
+            "opt": 1,
+            "desc": {
+                "upper": "WS2812",
+                "lower": "开关",
+                "remarks": "开关WS2812轴灯"
+            }
+        },
+        {
+            "id": 18,
+            "opt": 2,
+            "desc": {
+                "upper": "WS2812",
+                "lower": "色调+",
+                "remarks": "WS2812灯色调+"
+            }
+        },
+        {
+            "id": 18,
+            "opt": 3,
+            "desc": {
+                "upper": "WS2812",
+                "lower": "色调-",
+                "remarks": "WS2812灯色调-"
+            }
+        },
+        {
+            "id": 18,
+            "opt": 4,
+            "desc": {
+                "upper": "WS2812",
+                "lower": "饱和度+",
+                "remarks": "WS2812灯饱和度+"
+            }
+        },
+        {
+            "id": 18,
+            "opt": 5,
+            "desc": {
+                "upper": "WS2812",
+                "lower": "饱和度-",
+                "remarks": "WS2812灯饱和度-"
+            }
+        },
+        {
+            "id": 18,
+            "opt": 6,
+            "desc": {
+                "upper": "WS2812",
+                "lower": "明度+",
+                "remarks": "WS2812灯明度+"
+            }
+        },
+        {
+            "id": 18,
+            "opt": 7,
+            "desc": {
+                "upper": "WS2812",
+                "lower": "明度-",
+                "remarks": "WS2812灯明度-"
             }
         }
     ],

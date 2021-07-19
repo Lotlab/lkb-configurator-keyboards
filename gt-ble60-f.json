@@ -530,6 +530,78 @@
                 "lower": "功能",
                 "remarks": "切换指示灯与RGB轴灯功能"
             }
+        },
+        {
+            "id": 18,
+            "opt": 0,
+            "desc": {
+                "upper": "WS2812",
+                "lower": "模式",
+                "remarks": "切换WS2812灯效模式"
+            }
+        },
+        {
+            "id": 18,
+            "opt": 1,
+            "desc": {
+                "upper": "WS2812",
+                "lower": "开关",
+                "remarks": "开关WS2812轴灯"
+            }
+        },
+        {
+            "id": 18,
+            "opt": 2,
+            "desc": {
+                "upper": "WS2812",
+                "lower": "色调+",
+                "remarks": "WS2812灯色调+"
+            }
+        },
+        {
+            "id": 18,
+            "opt": 3,
+            "desc": {
+                "upper": "WS2812",
+                "lower": "色调-",
+                "remarks": "WS2812灯色调-"
+            }
+        },
+        {
+            "id": 18,
+            "opt": 4,
+            "desc": {
+                "upper": "WS2812",
+                "lower": "饱和度+",
+                "remarks": "WS2812灯饱和度+"
+            }
+        },
+        {
+            "id": 18,
+            "opt": 5,
+            "desc": {
+                "upper": "WS2812",
+                "lower": "饱和度-",
+                "remarks": "WS2812灯饱和度-"
+            }
+        },
+        {
+            "id": 18,
+            "opt": 6,
+            "desc": {
+                "upper": "WS2812",
+                "lower": "明度+",
+                "remarks": "WS2812灯明度+"
+            }
+        },
+        {
+            "id": 18,
+            "opt": 7,
+            "desc": {
+                "upper": "WS2812",
+                "lower": "明度-",
+                "remarks": "WS2812灯明度-"
+            }
         }
     ],
     "Doc": "## GT-BLE60 Rev.F \n\n 此键盘是一个60%键盘,支持轴灯和旋转编码器",
