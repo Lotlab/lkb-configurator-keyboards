@@ -1,3 +1,191 @@
 # LKB-Configurator Keyboard Configs
 
 键盘配置文件目录。
+
+## 数据结构
+
+```typescript
+
+export class KeyboardVendor {
+    Name!: string;
+    Url!: string;
+}
+
+/**
+ * 键盘Profile
+ */
+export class KeyboardProfile {
+    /**
+     * 键盘名称
+     */
+    Name!: string;
+
+    /**
+     * 制造商
+     */
+    Vendor!: KeyboardVendor;
+
+    /**
+     * 对应VID
+     */
+    VID!: number;
+
+    /**
+     * 对应PID
+     */
+    PID!: number;
+
+    /**
+     * 硬件版本号
+     */
+    Revision!: string[];
+
+    /**
+     * 是否是隐藏的配置文件
+     */
+    Hidden?: boolean;
+
+    /**
+     * 额外的设置项目
+     */
+    AdditionSettings?: KeyboardSetting[];
+
+    /**
+     * 额外的Fn项目
+     */
+    AdditionFns?: Fn[];
+
+    /**
+     * 键盘布局
+     */
+    Layout!: LayoutExt;
+
+    /**
+     * 按键阵列行数
+     */
+    Row!: number;
+
+    /**
+     * 按键阵列列数
+     */
+    Col!: number;
+
+    /**
+     * 额外文档说明
+     */
+    Doc!: string;
+
+    /**
+     * 默认配置数据
+     */
+    Default?: ConfiguratorData;
+}
+
+/**
+ * 可配置项目
+ */
+export class KeyboardSetting {
+    /**
+     * 配置项目的ID
+     */
+    ID!: number;
+    /**
+     * 配置数据长度(Byte)
+     */
+    Length!: number;
+    /**
+     * 默认值
+     */
+    DefaultVal!: number;
+    /**
+     * 配置名称
+     */
+    Name!: string | StringI18N;
+    /**
+     * 描述
+     */
+    Desc?: string | StringI18N;
+    /**
+     * 选择范围
+     */
+    Range!: KeyboardSettingNumber | KeyboardSettingDropdown;
+}
+
+/**
+ * 数值类型的项目值
+ */
+export class KeyboardSettingNumber {
+    /**
+     * 最小值
+     */
+    MinVal!: number;
+    /**
+     * 最大值
+     */
+    MaxVal!: number;
+    /**
+     * 单位
+     */
+    Unit!: string | StringI18N;
+}
+
+export class KeyboardSettingDropdownItem {
+    /**
+     * 值
+     */
+    Key!: number;
+
+    /**
+     * 条目名称
+     */
+    Name!: string | StringI18N;
+}
+
+export class LayoutCondition {
+    id!: string;
+    desc?: string | StringI18N;
+    cond!: (string | StringI18N)[];
+    value!: number;
+}
+
+export class LayoutKeyCondition {
+    id!: string;
+    value!: number;
+}
+
+export class LayoutKeyExt extends LayoutKey {
+    cond?: LayoutKeyCondition;
+    conds?: LayoutKeyCondition[];
+}
+
+export class LayoutRowExt {
+    keys: LayoutKeyExt[] = [];
+}
+
+export class LayoutExt {
+    rows: LayoutRowExt[] = [];
+    conds: LayoutCondition[] = [];
+}
+
+export class Fn {
+    id!: number;
+    opt!: number;
+    desc!: KeyDescription;
+    /**
+     * 是否是隐藏的功能键
+     */
+    hide?: boolean;
+}
+
+export class KeyDescription {
+    upper!: string | StringI18N;
+    lower?: string | StringI18N;
+    remarks?: string | StringI18N;
+    alt?: string;
+}
+
+export class StringI18N {
+    [key: string]: string;
+}
+
+```
