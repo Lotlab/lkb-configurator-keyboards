@@ -296,6 +296,179 @@
             }
         ]
     },
+    "AdditionFns": [
+        {
+            "id": 16,
+            "opt": 0,
+            "desc": {
+                "upper": "ESC",
+                "lower": "~",
+                "remarks": "普通：ESC，同时按下Shift：~"
+            }
+        },
+        {
+            "id": 16,
+            "opt": 1,
+            "desc": {
+                "upper": ">.",
+                "lower": "?",
+                "remarks": "普通：>. ，同时按下RShift：?"
+            }
+        },
+        {
+            "id": 16,
+            "opt": 2,
+            "desc": {
+                "upper": "Enter",
+                "lower": "”",
+                "remarks": "普通：Enter，同时按下RShift：”"
+            }
+        },
+        {
+            "id": 16,
+            "opt": 3,
+            "desc": {
+                "upper": "L",
+                "lower": ":",
+                "remarks": "普通：L，同时按下RShift是 ："
+            }
+        },
+        {
+            "id": 16,
+            "opt": 4,
+            "desc": {
+                "upper": "↑",
+                "lower": "?",
+                "remarks": "普通：↑ ，同时按下RShift：？"
+            }
+        },
+        {
+            "id": 16,
+            "opt": 5,
+            "desc": {
+                "upper": "Backspace",
+                "lower": "|",
+                "remarks": "普通：Backspace ，同时按下RShift：|"
+            }
+        },
+        {
+            "id": 1,
+            "opt": 8,
+            "desc": {
+                "upper": "BT",
+                "lower": "1",
+                "remarks": "蓝牙通道一"
+            }
+        },
+        {
+            "id": 1,
+            "opt": 9,
+            "desc": {
+                "upper": "BT",
+                "lower": "2",
+                "remarks": "蓝牙通道二"
+            }
+        },
+        {
+            "id": 1,
+            "opt": 10,
+            "desc": {
+                "upper": "BT",
+                "lower": "3",
+                "remarks": "蓝牙通道三"
+            }
+        },
+        {
+            "id": 1,
+            "opt": 11,
+            "desc": {
+                "upper": "BT",
+                "lower": "广播",
+                "remarks": "重新蓝牙广播"
+            }
+        },
+        {
+            "id": 1,
+            "opt": 7,
+            "desc": {
+                "upper": "BT",
+                "lower": "解除绑定",
+                "remarks": "解除蓝牙绑定"
+            }
+        },
+        {
+            "id": 18,
+            "opt": 0,
+            "desc": {
+                "upper": "💡",
+                "lower": "模式",
+                "remarks": "切换WS2812灯效模式"
+            }
+        },
+        {
+            "id": 18,
+            "opt": 1,
+            "desc": {
+                "upper": "💡",
+                "lower": "开关",
+                "remarks": "开关WS2812轴灯"
+            }
+        },
+        {
+            "id": 18,
+            "opt": 2,
+            "desc": {
+                "upper": "💡",
+                "lower": "色调+",
+                "remarks": "WS2812灯色调+"
+            }
+        },
+        {
+            "id": 18,
+            "opt": 3,
+            "desc": {
+                "upper": "💡",
+                "lower": "色调-",
+                "remarks": "WS2812灯色调-"
+            }
+        },
+        {
+            "id": 18,
+            "opt": 4,
+            "desc": {
+                "upper": "💡",
+                "lower": "饱和度+",
+                "remarks": "WS2812灯饱和度+"
+            }
+        },
+        {
+            "id": 18,
+            "opt": 5,
+            "desc": {
+                "upper": "💡",
+                "lower": "饱和度-",
+                "remarks": "WS2812灯饱和度-"
+            }
+        },
+        {
+            "id": 18,
+            "opt": 6,
+            "desc": {
+                "upper": "💡",
+                "lower": "明度+",
+                "remarks": "WS2812灯明度+"
+            }
+        },
+        {
+            "id": 18,
+            "opt": 7,
+            "desc": {
+                "upper": "💡",
+                "lower": "明度-",
+                "remarks": "WS2812灯明度-"
+            }
+        }
+    ],
     "Doc": "## GT-BLE60 Rev.D \n\n 此键盘是一个60%键盘，不支持线刷",
     "Default": {
         "Keys": [
