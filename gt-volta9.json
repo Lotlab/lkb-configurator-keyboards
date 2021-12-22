@@ -1,0 +1,261 @@
+{
+    "Name": "GT Volta9",
+    "Vendor": {
+        "Name": "Glab",
+        "Url": "https://glab.online"
+    },
+    "VID": 17254,
+    "PID": 801,
+    "Row": 3,
+    "Col": 3,
+    "Revision": [
+        "Rev.A",
+        "Rev.B",
+        "Rev.C",
+        "Rev.D",
+        "Rev.E",
+        "Rev.F",
+        "Rev.G",
+        "Rev.H"
+    ],
+    "Layout": {
+        "rows": [
+            {
+                "keys": [
+                    {
+                        "col": 0,
+                        "row": 0
+                    },
+                    {
+                        "col": 1,
+                        "row": 0
+                    },
+                    {
+                        "col": 2,
+                        "row": 0
+                    }
+                ]
+            },
+            {
+                "keys": [
+                    {
+                        "col": 0,
+                        "row": 1
+                    },
+                    {
+                        "col": 1,
+                        "row": 1
+                    },
+                    {
+                        "col": 2,
+                        "row": 1
+                    }
+                ]
+            },
+            {
+                "keys": [
+                    {
+                        "col": 0,
+                        "row": 2
+                    },
+                    {
+                        "col": 1,
+                        "row": 2
+                    },
+                    {
+                        "col": 2,
+                        "row": 2
+                    }
+                ]
+            }
+        ]
+    },
+    "AdditionFns": [
+        {
+            "id": 1,
+            "opt": 8,
+            "desc": {
+                "upper": "BT",
+                "lower": "1",
+                "remarks": "蓝牙通道一"
+            }
+        },
+        {
+            "id": 1,
+            "opt": 9,
+            "desc": {
+                "upper": "BT",
+                "lower": "2",
+                "remarks": "蓝牙通道二"
+            }
+        },
+        {
+            "id": 1,
+            "opt": 10,
+            "desc": {
+                "upper": "BT",
+                "lower": "3",
+                "remarks": "蓝牙通道三"
+            }
+        },
+        {
+            "id": 1,
+            "opt": 11,
+            "desc": {
+                "upper": "BT",
+                "lower": "广播",
+                "remarks": "重新蓝牙广播"
+            }
+        },
+        {
+            "id": 1,
+            "opt": 7,
+            "desc": {
+                "upper": "BT",
+                "lower": "解除绑定",
+                "remarks": "解除蓝牙绑定"
+            }
+        }
+    ],
+    "Doc": "## GT Volta9 \n\n 此键盘是一个9键的小键盘",
+    "Default": {
+        "Keys": [
+            [
+                [
+                    95,
+                    96,
+                    97
+                ],
+                [
+                    92,
+                    93,
+                    94
+                ],
+                [
+                    89,
+                    90,
+                    91
+                ]
+            ],
+            [
+                [
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null
+                ]
+            ],
+            [
+                [
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null
+                ]
+            ],
+            [
+                [
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null
+                ]
+            ],
+            [
+                [
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null
+                ]
+            ],
+            [
+                [
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null
+                ]
+            ],
+            [
+                [
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null
+                ]
+            ],
+            [
+                [
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null
+                ]
+            ]
+        ]
+    }
+}
