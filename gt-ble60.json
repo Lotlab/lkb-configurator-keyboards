@@ -298,6 +298,31 @@
     },
     "AdditionFns": [
         {
+            "id": 18,
+            "opt": 0,
+            "desc": {
+                "upper": "关机",
+                "lower": "",
+                "remarks": "使键盘进入关机状态"
+            }
+        }, {
+            "id": 18,
+            "opt": 1,
+            "desc": {
+                "upper": "状态灯",
+                "lower": "开关",
+                "remarks": "启用/禁用指示灯功能"
+            }
+        }, {
+            "id": 18,
+            "opt": 2,
+            "desc": {
+                "upper": "启动按键",
+                "lower": "开关",
+                "remarks": "启用/禁用启动按键功能"
+            }
+        },
+        {
             "id": 16,
             "opt": 0,
             "desc": {

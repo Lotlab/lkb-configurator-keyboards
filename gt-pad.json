@@ -172,6 +172,31 @@
     },
     "AdditionFns": [
         {
+            "id": 18,
+            "opt": 0,
+            "desc": {
+                "upper": "关机",
+                "lower": "",
+                "remarks": "使键盘进入关机状态"
+            }
+        }, {
+            "id": 18,
+            "opt": 1,
+            "desc": {
+                "upper": "状态灯",
+                "lower": "开关",
+                "remarks": "启用/禁用指示灯功能"
+            }
+        }, {
+            "id": 18,
+            "opt": 2,
+            "desc": {
+                "upper": "启动按键",
+                "lower": "开关",
+                "remarks": "启用/禁用启动按键功能"
+            }
+        },
+        {
             "id": 16,
             "opt": 0,
             "desc": {
@@ -352,7 +377,7 @@
             }
         }
     ],
-    "Doc": "## GT PAD \n\n 此键盘是一个标准的数字小键盘",
+    "Doc": "## GT PAD \n\n- 4x5的数字小键盘，共17键\n\n- 支持RGB轴灯\n\n- Type-C接口\n\n- 蓝牙主控为nRF52832\n\n- 采用热拔插方式（佳达隆轴座）\n\n- 支持旋转编码器、OLED屏幕\n\n- 引出多余个针脚可自行添加外设\n\n- PCB尺寸：76.2mm×95.2mm",
     "Default": {
         "Keys": [
             [
