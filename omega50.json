@@ -301,6 +301,31 @@
     },
     "AdditionFns": [
         {
+            "id": 18,
+            "opt": 0,
+            "desc": {
+                "upper": "关机",
+                "lower": "",
+                "remarks": "使键盘进入关机状态"
+            }
+        }, {
+            "id": 18,
+            "opt": 1,
+            "desc": {
+                "upper": "状态灯",
+                "lower": "开关",
+                "remarks": "启用/禁用指示灯功能"
+            }
+        }, {
+            "id": 18,
+            "opt": 2,
+            "desc": {
+                "upper": "启动按键",
+                "lower": "开关",
+                "remarks": "启用/禁用启动按键功能"
+            }
+        },
+        {
             "id": 16,
             "opt": 0,
             "desc": {
@@ -400,7 +425,7 @@
             }
         }
     ],
-    "Doc": "## Omega50 \n\n 此键盘是一个50%键盘",
+    "Doc": "## Omega50 rev.A\n\n- 5x12的50%键盘\n\n- 蓝牙主控为nRF52832（信驰达RF-BM-ND04蓝牙模块）\n\n- 采用热拔插方式\n\n- 状态指示灯3颗\n\n- Caps指示灯1颗\n\n- 充电指示灯2颗\n\n- 8颗RGB底灯（WS2812）\n\n- 预留WS2812 RGB灯带焊接位",
     "Default": {
         "Keys": [
             [

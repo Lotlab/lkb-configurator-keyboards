@@ -282,6 +282,31 @@
     },
     "AdditionFns": [
         {
+            "id": 18,
+            "opt": 0,
+            "desc": {
+                "upper": "关机",
+                "lower": "",
+                "remarks": "使键盘进入关机状态"
+            }
+        }, {
+            "id": 18,
+            "opt": 1,
+            "desc": {
+                "upper": "状态灯",
+                "lower": "开关",
+                "remarks": "启用/禁用指示灯功能"
+            }
+        }, {
+            "id": 18,
+            "opt": 2,
+            "desc": {
+                "upper": "启动按键",
+                "lower": "开关",
+                "remarks": "启用/禁用启动按键功能"
+            }
+        },
+        {
             "id": 16,
             "opt": 0,
             "desc": {
@@ -462,7 +487,7 @@
             }
         }
     ],
-    "Doc": "## Omega45 REV.E \n\n 此键盘是一个40%键盘,支持轴灯",
+    "Doc": "## Omega45 \n\n- 4x12阵列的45%键盘，共45键\n\n- 支持RGB轴灯\n\n- Type-C接口\n\n- 蓝牙主控为nRF52832\n\n- 采用热拔插方式（佳达隆轴座）\n\n- 支持旋转编码器\n\n- PCB尺寸：247.7mm×76.2mm",
     "Default": {
         "Keys": [
             [
