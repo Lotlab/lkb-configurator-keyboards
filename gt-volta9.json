@@ -141,6 +141,33 @@
                 "lower": "解除绑定",
                 "remarks": "解除蓝牙绑定"
             }
+        },
+        {
+            "id": 19,
+            "opt": 2,
+            "desc": {
+                "upper": "切换",
+                "lower": "无线模式",
+                "remarks": "在2.4G/蓝牙模式之间进行切换"
+            }
+        },
+        {
+            "id": 19,
+            "opt": 0,
+            "desc": {
+                "upper": "2.4G",
+                "lower": "模式",
+                "remarks": "切换到2.4G无线模式"
+            }
+        },
+        {
+            "id": 19,
+            "opt": 1,
+            "desc": {
+                "upper": "蓝牙",
+                "lower": "模式",
+                "remarks": "切换到蓝牙无线模式"
+            }
         }
     ],
     "Doc": "## GT Volta9 \n\n- 3x3的9键小键盘\n\n- 支持RGB轴灯（同QMK灯效）\n\n- Type-C接口\n\n- 蓝牙主控为nRF52810（芯片+贴片天线）\n\n- 采用热拔插方式（佳达隆轴座）\n\n- PCB尺寸：57.2mm×57.2mm",
