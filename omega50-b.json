@@ -459,8 +459,8 @@
             "opt": 7,
             "desc": {
                 "upper": "BT",
-                "lower": "解除绑定",
-                "remarks": "解除蓝牙绑定"
+                "lower": "解除配对",
+                "remarks": "解除蓝牙配对"
             }
         },
         {

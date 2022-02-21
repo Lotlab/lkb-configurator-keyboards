@@ -34,6 +34,10 @@
                     {
                         "zh": "编码器",
                         "en": "Encoder"
+                    },
+                    {
+                        "zh": "独立编码器",
+                        "en": "Separate Encoder"
                     }
                 ],
                 "value": 0
@@ -59,6 +63,33 @@
                             "id": "rot",
                             "value": 1
                         }
+                    },
+                    {
+                        "w": 1.5,
+                        "col": 1,
+                        "row": 4,
+                        "cond": {
+                            "id": "rot",
+                            "value": 2
+                        }
+                    },
+                    {
+                        "w": 1.5,
+                        "col": 3,
+                        "row": 4,
+                        "cond": {
+                            "id": "rot",
+                            "value": 2
+                        }
+                    },
+                    {
+                        "w": 1,
+                        "col": 4,
+                        "row": 4,
+                        "cond": {
+                            "id": "rot",
+                            "value": 2
+                        }
                     }
                 ]
             },
@@ -66,19 +97,7 @@
                 "keys": [
                     {
                         "col": 0,
-                        "row": 0,
-                        "cond": {
-                            "id": "rot",
-                            "value": 0
-                        }
-                    },
-                    {
-                        "col": 4,
-                        "row": 4,
-                        "cond": {
-                            "id": "rot",
-                            "value": 1
-                        }
+                        "row": 0
                     },
                     {
                         "col": 1,
@@ -291,8 +310,8 @@
             "opt": 7,
             "desc": {
                 "upper": "BT",
-                "lower": "解除绑定",
-                "remarks": "解除蓝牙绑定"
+                "lower": "解除配对",
+                "remarks": "解除蓝牙配对"
             }
         },
         {
@@ -404,7 +423,7 @@
             }
         }
     ],
-    "Doc": "## GT PAD \n\n- 4x5的数字小键盘，共17键\n\n- 支持RGB轴灯\n\n- Type-C接口\n\n- 蓝牙主控为nRF52832\n\n- 采用热拔插方式（佳达隆轴座）\n\n- 支持旋转编码器、OLED屏幕\n\n- 引出多余个针脚可自行添加外设\n\n- PCB尺寸：76.2mm×95.2mm",
+    "Doc": "## GT PAD \n\n- 4x5的数字小键盘，共17键\n\n- 支持RGB轴灯\n\n- Type-C接口\n\n- 蓝牙主控为nRF52832 或 nRF52810\n\n- 采用热拔插方式（佳达隆轴座）\n\n- 支持旋转编码器\n\n- 引出多余个针脚可自行添加外设（仅采用nRF52832版本）\n\n- PCB尺寸：76.2mm×95.2mm",
     "Default": {
         "Keys": [
             [
