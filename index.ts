@@ -30,6 +30,7 @@ export default [
     // AliceFafa
     require("./alice-go.json"),
     // AMX
-    require("./amx_2hkb60.json")
+    require("./amx_2hkb60.json"),
+    require("./amx_ibm66.json")
 
 ];
