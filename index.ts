@@ -5,13 +5,14 @@ export default [
     require("./g84-4100.json"),
     require("./ergoconn_left.json"),
     require("./ergoconn_right.json"),
-    // Glab
     require("./lotpad.json"),
+    // Glab
     require("./gt-ble60.json"),
     require("./gt-ble60-e.json"),
     require("./gt-ble60-f.json"),
     require("./gt-planck.json"),
     require("./newhope64.json"),
+    require("./newhope64-new.json"),
     require("./farad69.json"),
     require("./farad69-b.json"),
     require("./farad69-c.json"),
