@@ -32,6 +32,6 @@ export default [
     require("./alice-go.json"),
     // AMX
     require("./amx_2hkb60.json"),
-    require("./amx_ibm66.json")
-
+    require("./amx_ibm66.json"),
+    require("./amx_amx40.json")
 ];
