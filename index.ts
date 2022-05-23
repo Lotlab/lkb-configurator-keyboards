@@ -28,6 +28,7 @@ export default [
     // HHKB
     require("./hhkb_ble.json"),
     require("./htkb_hypertoxic.json"),
+    require("./htkb_ble.json"),
     // AliceFafa
     require("./alice-go.json"),
     // AMX
