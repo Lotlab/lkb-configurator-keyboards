@@ -34,5 +34,7 @@ export default [
     // AMX
     require("./amx_2hkb60.json"),
     require("./amx_ibm66.json"),
-    require("./amx_amx40.json")
+    require("./amx_amx40.json"),
+    // Clover
+    require("./clover-40.json"),
 ];
