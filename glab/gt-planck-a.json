@@ -13,6 +13,7 @@
         "Rev.B",
         "Rev.C"
     ],
+    "Hidden": true,
     "Layout": {
         "conds": [
             {
