@@ -376,18 +376,18 @@
             "id": 1,
             "opt": 11,
             "desc": {
-                "upper": "BT",
-                "lower": "广播",
-                "remarks": "重新蓝牙广播"
+                "upper": "无线",
+                "lower": "广播配对",
+                "remarks": "重新蓝牙广播/开启2.4G配对"
             }
         },
         {
             "id": 1,
             "opt": 7,
             "desc": {
-                "upper": "BT",
+                "upper": "无线",
                 "lower": "解除配对",
-                "remarks": "解除蓝牙配对"
+                "remarks": "解除蓝牙/2.4G无线配对"
             }
         },
         {
