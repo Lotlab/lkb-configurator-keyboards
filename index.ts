@@ -44,4 +44,6 @@ export default [
     require("./Kawvin/BLE912Split_L.json"),
     require("./Kawvin/BLE912Split_R.json"),
     require("./Kawvin/BLE912Split_N.json"),
+    // Zero
+    require("./Zero/FX-980.json"),
 ];
