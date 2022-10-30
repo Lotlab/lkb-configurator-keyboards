@@ -26,6 +26,7 @@ export default [
     require("./glab/gt-pad.json"),
     require("./glab/omega40.json"),
     require("./glab/gt-volta9.json"),
+    require("./glab/hal67.json"),
     // HHKB
     require("./htkb/hhkb_ble.json"),
     require("./htkb/htkb_hypertoxic.json"),
