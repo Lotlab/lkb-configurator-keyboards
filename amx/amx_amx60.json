@@ -331,5 +331,52 @@
             }
         ]
     },
+    "AdditionFns": [
+        {
+            "id": 1,
+            "opt": 8,
+            "desc": {
+                "upper": "BT",
+                "lower": "1",
+                "remarks": "蓝牙通道一"
+            }
+        },
+        {
+            "id": 1,
+            "opt": 9,
+            "desc": {
+                "upper": "BT",
+                "lower": "2",
+                "remarks": "蓝牙通道二"
+            }
+        },
+        {
+            "id": 1,
+            "opt": 10,
+            "desc": {
+                "upper": "BT",
+                "lower": "3",
+                "remarks": "蓝牙通道三"
+            }
+        },
+        {
+            "id": 1,
+            "opt": 11,
+            "desc": {
+                "upper": "BT",
+                "lower": "广播",
+                "remarks": "重新蓝牙广播"
+            }
+        },
+        {
+            "id": 1,
+            "opt": 7,
+            "desc": {
+                "upper": "BT",
+                "lower": "解除配对",
+                "remarks": "解除蓝牙配对"
+            }
+        }
+    ],
     "Doc": ""
 }
