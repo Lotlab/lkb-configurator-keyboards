@@ -45,4 +45,6 @@ export default [
     require("./Kawvin/BLE102.json"),
     // Zero
     require("./Zero/FX-980.json"),
+    // boulevard
+    require("./boulevard/blvd-pad.json"),
 ];
