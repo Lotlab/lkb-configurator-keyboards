@@ -47,4 +47,5 @@ export default [
     require("./Zero/FX-980.json"),
     // boulevard
     require("./boulevard/blvd-pad.json"),
+    require("./boulevard/blvd-65.json"),
 ];

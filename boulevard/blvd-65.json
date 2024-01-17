@@ -1,0 +1,125 @@
+{
+    "Name": "blvd-65",
+    "Vendor": {
+        "Name": "boulevard",
+        "Url": "#"
+    },
+    "VID": 21268,
+    "PID": 21,
+    "Row": 5,
+    "Col": 16,
+    "Revision": [
+        "Rev.A"
+    ],
+    "Layout": {
+        "conds": [],
+        "rows": [
+            {
+                "keys": [
+                    { "col": 0, "row": 0 },
+                    { "col": 1, "row": 0 },
+                    { "col": 2, "row": 0 },
+                    { "col": 3, "row": 0 },
+                    { "col": 4, "row": 0 },
+                    { "col": 5, "row": 0 },
+                    { "col": 6, "row": 0 },
+                    { "col": 7, "row": 0 },
+                    { "col": 8, "row": 0 },
+                    { "col": 9, "row": 0 },
+                    { "col": 10, "row": 0 },
+                    { "col": 11, "row": 0 },
+                    { "col": 12, "row": 0 },
+                    { "col": 13, "row": 0 },
+                    { "col": 14, "row": 0 },
+                    { "col": 15, "row": 0 }
+                ]
+            },
+            {
+                "keys": [
+                    { "col": 0, "row": 1, "w": 1.5 },
+                    { "col": 2, "row": 1 },
+                    { "col": 3, "row": 1 },
+                    { "col": 4, "row": 1 },
+                    { "col": 5, "row": 1 },
+                    { "col": 6, "row": 1 },
+                    { "col": 7, "row": 1 },
+                    { "col": 8, "row": 1 },
+                    { "col": 9, "row": 1 },
+                    { "col": 10, "row": 1 },
+                    { "col": 11, "row": 1 },
+                    { "col": 12, "row": 1 },
+                    { "col": 13, "row": 1 },
+                    { "col": 14, "row": 1, "w": 1.5 },
+                    { "col": 15, "row": 1 }
+                ]
+            },
+            {
+                "keys": [
+                    { "col": 0, "row": 2, "w": 1.75 },
+                    { "col": 2, "row": 2 },
+                    { "col": 3, "row": 2 },
+                    { "col": 4, "row": 2 },
+                    { "col": 5, "row": 2 },
+                    { "col": 6, "row": 2 },
+                    { "col": 7, "row": 2 },
+                    { "col": 8, "row": 2 },
+                    { "col": 9, "row": 2 },
+                    { "col": 10, "row": 2 },
+                    { "col": 11, "row": 2 },
+                    { "col": 12, "row": 2 },
+                    { "col": 13, "row": 2, "w": 2.25 },
+                    { "col": 15, "row": 2 }
+                ]
+            },
+            {
+                "keys": [
+                    { "col": 0, "row": 3, "w": 1.25 },
+                    { "col": 1, "row": 3 },
+                    { "col": 2, "row": 3 },
+                    { "col": 3, "row": 3 },
+                    { "col": 4, "row": 3 },
+                    { "col": 5, "row": 3 },
+                    { "col": 6, "row": 3 },
+                    { "col": 7, "row": 3 },
+                    { "col": 8, "row": 3 },
+                    { "col": 9, "row": 3 },
+                    { "col": 10, "row": 3 },
+                    { "col": 11, "row": 3 },
+                    { "col": 13, "row": 3, "w": 1.75 },
+                    { "col": 14, "row": 3 },
+                    { "col": 15, "row": 3 }
+                ]
+            },
+            {
+                "keys": [
+                    { "col": 0, "row": 4, "w": 1.25 },
+                    { "col": 1, "row": 4, "w": 1.25 },
+                    { "col": 3, "row": 4, "w": 1.25 },
+                    { "col": 6, "row": 4, "w": 6.25 },
+                    { "col": 10, "row": 4, "w": 1.25 },
+                    { "col": 11, "row": 4, "w": 1.25 },
+                    { "col": 13, "row": 4, "x": 0.5 },
+                    { "col": 14, "row": 4 },
+                    { "col": 15, "row": 4 }
+                ]
+            }
+        ]
+    },
+    "AdditionFns": [
+        { "id": 1, "opt": 8, "desc": { "upper": "BT", "lower": "1", "remarks": "蓝牙通道一" } },
+        { "id": 1, "opt": 9, "desc": { "upper": "BT", "lower": "2", "remarks": "蓝牙通道二" } },
+        { "id": 1, "opt": 10, "desc": { "upper": "BT", "lower": "3", "remarks": "蓝牙通道三" }
+        },
+        {
+            "id": 1,
+            "opt": 11,
+            "desc": { "upper": "BT", "lower": "广播", "remarks": "重新蓝牙广播" }
+        },
+        {
+            "id": 1,
+            "opt": 7,
+            "desc": { "upper": "BT", "lower": "解除配对", "remarks": "解除蓝牙配对" }
+        }
+    ],
+    "Doc": "Designed by boulevard"
+  }
