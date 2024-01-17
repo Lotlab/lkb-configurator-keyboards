@@ -121,5 +121,5 @@
             "desc": { "upper": "BT", "lower": "解除配对", "remarks": "解除蓝牙配对" }
         }
     ],
-    "Doc": "Designed by boulevard"
+    "Doc": "Designed by boulevard, handware: https://github.com/boulevard-h/blvd-65-handware"
   }
