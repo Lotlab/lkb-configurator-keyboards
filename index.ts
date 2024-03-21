@@ -39,6 +39,7 @@ export default [
     require("./amx/amx_amx40.json"),
     require("./amx/amx_gx64.json"),
     require("./amx/amx_amx60.json"),
+    require("./amx/amx_guqin96.json"),
     // Clover
     require("./clover/clover-40.json"),
     // Kawvin
