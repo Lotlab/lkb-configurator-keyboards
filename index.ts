@@ -38,12 +38,17 @@ import amx_amx_ibm66 from "./amx/amx_ibm66.json";
 import amx_amx_amx40 from "./amx/amx_amx40.json";
 import amx_amx_gx64 from "./amx/amx_gx64.json";
 import amx_amx_amx60 from "./amx/amx_amx60.json";
+import amx_amx_guqin96 from "./amx/amx_guqin96.json";
+import amx_amx_guqin68 from "./amx/amx_guqin68.json";
 // Clover
 import clover_clover_40 from "./clover/clover-40.json";
 // Kawvin
 import Kawvin_BLE102 from "./Kawvin/BLE102.json";
 // Zero
 import Zero_FX_980 from "./Zero/FX-980.json";
+
+import boulevard_blvd_pad from "./boulevard/blvd-pad.json";
+import boulevard_blvd_65 from "./boulevard/blvd-65.json";
 
 export default [
     // Lotlab
@@ -87,10 +92,15 @@ export default [
     amx_amx_amx40,
     amx_amx_gx64,
     amx_amx_amx60,
+    amx_amx_guqin96,
+    amx_amx_guqin68,
     // Clover
     clover_clover_40,
     // Kawvin
     Kawvin_BLE102,
     // Zero
     Zero_FX_980,
+    // boulevard
+    boulevard_blvd_pad,
+    boulevard_blvd_65,
 ];
