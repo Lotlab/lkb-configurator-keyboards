@@ -61,8 +61,20 @@
             {
                 "keys": [
                     {
+                        "col": 1,
+                        "row": 0,
+                        "cond": {
+                            "id": "rot",
+                            "value": 0
+                        }
+                    },
+                    {
                         "col": 8,
-                        "row": 6
+                        "row": 6,
+                        "cond": {
+                            "id": "rot",
+                            "value": 1
+                        }
                     },
                     {
                         "col": 2,
