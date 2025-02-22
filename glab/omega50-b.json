@@ -572,6 +572,20 @@
             }
         }
     ],
+    "AdditionSettings": [
+        {
+            "ID": 32,
+            "Length": 2,
+            "DefaultVal": 200,
+            "Name": "轻触时限",
+            "Desc": "区分轻触与长按的限定时长",
+            "Range": {
+                "MinVal": 100,
+                "MaxVal": 400,
+                "Unit": "毫秒"
+            }
+        }
+    ],
     "Doc": "## Omega50 Rev.B \n\n- 5x12阵列的50%键盘，共58键\n\n- 支持RGB轴灯\n\n- Type-C接口\n\n- 蓝牙主控为nRF52832）\n\n- 采用热拔插方式（佳达隆轴座）\n\n- 支持旋转编码器\n\n- 轴灯兼指示灯功能\n\n- 预留WS2812 RGB灯带焊接位\n\n- 支持PCB卫星轴\n\n- PCB尺寸：247.7mm×95.3mm",
     "Default": {
         "Keys": [

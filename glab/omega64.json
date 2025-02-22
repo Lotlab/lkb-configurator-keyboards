@@ -744,6 +744,20 @@
             }
         }
     ],
+    "AdditionSettings": [
+        {
+            "ID": 32,
+            "Length": 2,
+            "DefaultVal": 200,
+            "Name": "轻触时限",
+            "Desc": "区分轻触与长按的限定时长",
+            "Range": {
+                "MinVal": 100,
+                "MaxVal": 400,
+                "Unit": "毫秒"
+            }
+        }
+    ],
     "Doc": "## Omega64 \n\n 此键盘是一个60%键盘。 rev.A版本为左移64,rev.B版本为右移64。",
     "Default": {
         "Keys": [
