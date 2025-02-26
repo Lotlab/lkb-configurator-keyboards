@@ -432,7 +432,7 @@
             "Desc": "区分轻触与长按的限定时长",
             "Range": {
                 "MinVal": 100,
-                "MaxVal": 400,
+                "MaxVal": 900,
                 "Unit": "毫秒"
             }
         }
