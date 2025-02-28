@@ -423,6 +423,20 @@
             }
         }
     ],
+    "AdditionSettings": [
+        {
+            "ID": 32,
+            "Length": 2,
+            "DefaultVal": 200,
+            "Name": "轻触时限",
+            "Desc": "区分轻触与长按的限定时长",
+            "Range": {
+                "MinVal": 100,
+                "MaxVal": 900,
+                "Unit": "毫秒"
+            }
+        }
+    ],
     "Doc": "## GT PAD \n\n- 4x5的数字小键盘，共17键\n\n- 支持RGB轴灯\n\n- Type-C接口\n\n- 蓝牙主控为nRF52832 或 nRF52810\n\n- 采用热拔插方式（佳达隆轴座）\n\n- 支持旋转编码器\n\n- 引出多余个针脚可自行添加外设（仅采用nRF52832版本）\n\n- PCB尺寸：76.2mm×95.2mm",
     "Default": {
         "Keys": [

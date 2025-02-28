@@ -429,6 +429,20 @@
             }
         }
     ],
+    "AdditionSettings": [
+        {
+            "ID": 32,
+            "Length": 2,
+            "DefaultVal": 200,
+            "Name": "轻触时限",
+            "Desc": "区分轻触与长按的限定时长",
+            "Range": {
+                "MinVal": 100,
+                "MaxVal": 900,
+                "Unit": "毫秒"
+            }
+        }
+    ],
     "Doc": "## GT Planck rev.B \n\n- 4×12的47键键盘\n\n- 支持RGB轴灯（QMK灯效）\n\n- Type-C接口,引出外接USB接口（支持左侧与中间两个位置）\n\n- 蓝牙主控为nRF52810（芯片+陶瓷天线）\n\n- 采用热拔插方式（佳达隆轴座）\n\n- 支持旋转编码器\n\n- 轴灯兼指示灯功能\n\n- PCB尺寸：7.62mm×22.86mm",
     "Default": {
         "Keys": [
