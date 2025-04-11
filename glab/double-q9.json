@@ -1,0 +1,328 @@
+{
+    "Name": "Double Q9",
+    "Vendor": {
+        "Name": "Glab",
+        "Url": "https://glab.online"
+    },
+    "VID": 17254,
+    "PID": 805,
+    "Row": 3,
+    "Col": 3,
+    "Revision": [
+        "Rev.A",
+        "Rev.B",
+        "Rev.C",
+        "Rev.D",
+        "Rev.E",
+        "Rev.F",
+        "Rev.G",
+        "Rev.H"
+    ],
+    "Layout": {
+        "conds": [],
+        "rows": [
+            {
+                "keys": [
+                    {
+                        "col": 0,
+                        "row": 0
+                    },
+                    {
+                        "col": 1,
+                        "row": 0
+                    },
+                    {
+                        "col": 2,
+                        "row": 0
+                    }
+                ]
+            },
+            {
+                "keys": [
+                    {
+                        "col": 0,
+                        "row": 1
+                    },
+                    {
+                        "col": 1,
+                        "row": 1
+                    },
+                    {
+                        "col": 2,
+                        "row": 1
+                    }
+                ]
+            },
+            {
+                "keys": [
+                    {
+                        "col": 0,
+                        "row": 2
+                    },
+                    {
+                        "col": 1,
+                        "row": 2
+                    },
+                    {
+                        "col": 2,
+                        "row": 2
+                    }
+                ]
+            }
+        ]
+    },
+    "AdditionFns": [
+        {
+            "id": 18,
+            "opt": 0,
+            "desc": {
+                "upper": "关机",
+                "lower": "",
+                "remarks": "使键盘进入关机状态"
+            }
+        }, {
+            "id": 18,
+            "opt": 1,
+            "desc": {
+                "upper": "状态灯",
+                "lower": "开关",
+                "remarks": "启用/禁用指示灯功能"
+            }
+        }, {
+            "id": 18,
+            "opt": 2,
+            "desc": {
+                "upper": "启动按键",
+                "lower": "开关",
+                "remarks": "启用/禁用启动按键功能"
+            }
+        },
+        {
+            "id": 1,
+            "opt": 8,
+            "desc": {
+                "upper": "BT",
+                "lower": "1",
+                "remarks": "蓝牙通道一"
+            }
+        },
+        {
+            "id": 1,
+            "opt": 9,
+            "desc": {
+                "upper": "BT",
+                "lower": "2",
+                "remarks": "蓝牙通道二"
+            }
+        },
+        {
+            "id": 1,
+            "opt": 10,
+            "desc": {
+                "upper": "BT",
+                "lower": "3",
+                "remarks": "蓝牙通道三"
+            }
+        },
+        {
+            "id": 1,
+            "opt": 11,
+            "desc": {
+                "upper": "无线",
+                "lower": "广播配对",
+                "remarks": "重新蓝牙广播/开启2.4G配对"
+            }
+        },
+        {
+            "id": 1,
+            "opt": 7,
+            "desc": {
+                "upper": "无线",
+                "lower": "解除配对",
+                "remarks": "解除蓝牙/2.4G无线配对"
+            }
+        },
+        {
+            "id": 19,
+            "opt": 2,
+            "desc": {
+                "upper": "切换",
+                "lower": "无线模式",
+                "remarks": "在2.4G/蓝牙模式之间进行切换"
+            }
+        },
+        {
+            "id": 19,
+            "opt": 0,
+            "desc": {
+                "upper": "2.4G",
+                "lower": "模式",
+                "remarks": "切换到2.4G无线模式"
+            }
+        },
+        {
+            "id": 19,
+            "opt": 1,
+            "desc": {
+                "upper": "蓝牙",
+                "lower": "模式",
+                "remarks": "切换到蓝牙无线模式"
+            }
+        }
+    ],
+    "AdditionSettings": [
+        {
+            "ID": 32,
+            "Length": 2,
+            "DefaultVal": 200,
+            "Name": "轻触时限",
+            "Desc": "区分轻触与长按的限定时长",
+            "Range": {
+                "MinVal": 100,
+                "MaxVal": 900,
+                "Unit": "毫秒"
+            }
+        }
+    ],
+    "Doc": "## Double Q9 \n\n- 3x3的9键小键盘\n\n- 支持RGB轴灯（同QMK灯效）\n\n- Type-C接口\n\n- 蓝牙主控为nRF52810（芯片+贴片天线）\n\n- 采用热拔插方式（佳达隆轴座）\n\n- PCB尺寸：57.2mm×57.2mm",
+    "Default": {
+        "Keys": [
+            [
+                [
+                    95,
+                    96,
+                    97
+                ],
+                [
+                    92,
+                    93,
+                    94
+                ],
+                [
+                    89,
+                    90,
+                    91
+                ]
+            ],
+            [
+                [
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null
+                ]
+            ],
+            [
+                [
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null
+                ]
+            ],
+            [
+                [
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null
+                ]
+            ],
+            [
+                [
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null
+                ]
+            ],
+            [
+                [
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null
+                ]
+            ],
+            [
+                [
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null
+                ]
+            ],
+            [
+                [
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null
+                ],
+                [
+                    null,
+                    null,
+                    null
+                ]
+            ]
+        ]
+    }
+}
