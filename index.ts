@@ -26,6 +26,7 @@ import glab_gt_pad from "./glab/gt-pad.json";
 import glab_omega40 from "./glab/omega40.json";
 import glab_gt_volta9 from "./glab/gt-volta9.json";
 import glab_hal67 from "./glab/hal67.json";
+import glab_double_q9 from "./glab/double-q9.json";
 // HHKB
 import htkb_hhkb_ble from "./htkb/hhkb_ble.json";
 import htkb_htkb_hypertoxic from "./htkb/htkb_hypertoxic.json";
@@ -80,6 +81,7 @@ export default [
     glab_omega40,
     glab_gt_volta9,
     glab_hal67,
+    glab_double_q9,
     // HHKB
     htkb_hhkb_ble,
     htkb_htkb_hypertoxic,
