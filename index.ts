@@ -41,6 +41,7 @@ import amx_amx_gx64 from "./amx/amx_gx64.json";
 import amx_amx_amx60 from "./amx/amx_amx60.json";
 import amx_amx_guqin96 from "./amx/amx_guqin96.json";
 import amx_amx_guqin68 from "./amx/amx_guqin68.json";
+import amx_amx_80 from "./amx/amx_amx80.json";
 // Clover
 import clover_clover_40 from "./clover/clover-40.json";
 // Kawvin
@@ -96,6 +97,7 @@ export default [
     amx_amx_amx60,
     amx_amx_guqin96,
     amx_amx_guqin68,
+    amx_amx_80,
     // Clover
     clover_clover_40,
     // Kawvin
